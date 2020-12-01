@@ -44,19 +44,16 @@
 <span class="description">
 	- устанавливает имя для идинтификации автора изменений.
 </span>
-<br>
 <hr>
 <span class="command">git config --global user.email johndoe@example.com</span>
 <span class="description">
  - устанавливает електронную почту для идинтификации автора изменений.
 </span>
-<br>
 <hr>
 <span class="command">git init</span>
 <span class="description">
 	- создает и инициализирует пустой репозиторий Git, или повторно инициализирует существующий.
 </span>
-<br>
 <hr>
 <span class="command">git status</span>
 <span class="description">
@@ -64,7 +61,6 @@
 	но не добавлены в индекс; какие ожидают коммита в индексе.
 	Вдобавок к этому выводятся подсказки о том, как изменить состояние файлов.
 </span>
-<br>
 <hr>
 <span class="command">git add</span>
 <span class="description">
@@ -72,14 +68,12 @@
 	По умолчанию git commit использует лишь этот индекс,
 	так что вы можете использовать <code>git add</code> для сборки слепка вашего следующего коммита.
 </span>
-<br>
 <hr>
 <span class="command">git commit</span>
 <span class="description">
 	- берёт все данные, добавленные в индекс с помощью <code>git add</code>,
 	и сохраняет их слепок во внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок.
 </span>
-<br>
 <hr>
 <span class="command">git log</span>
 <span class="description">
@@ -88,19 +82,16 @@
 	других, даже нескольких сразу, веток.
 	Также её можно использовать для просмотра различий между ветками на уровне коммитов.
 </span>
-<br>
 <hr>
 <span class="command">git checkout</span>
 <span class="description">
 	- используется для переключения веток и выгрузки их содержимого в рабочую директорию.
 </span>
-<br>
 <hr>
 <span class="command">git branch</span>
 <span class="description">
 	- это своего рода “менеджер веток”. Она умеет перечислять ваши ветки, создавать новые, удалять и переименовывать их.
 </span>
-<br>
 <hr>
 <span class="command">git push</span>
 <span class="description">
@@ -108,21 +99,18 @@
 	и собственно их передачи в вышеупомянутый репозиторий. Этой команде нужно право на запись в репозиторий,
 	поэтому она использует аутентификацию.
 </span>
-<br>
 <hr>
 <span class="command">git pull</span>
 <span class="description">
 	- работает как комбинация команд <code>git fetch</code> и <code>git merge</code>,
 	т.е. Git вначале забирает изменения из указанного удалённого репозитория, а затем пытается слить их с текущей веткой.
 </span>
-<br>
 <hr>
 <span class="command">git merge</span>
 <span class="description">
 	-  используется для слияния одной или нескольких веток в текущую.
 	Затем она устанавливает указатель текущей ветки на результирующий коммит.
 </span>
-<br>
 <hr>
 <span class="command">git clone https://github.com/johndoe/folder-name.git</span>
 <span class="description">
@@ -131,13 +119,11 @@
 	репозиторий (<code>git remote add</code>) для указанного URL (по умолчанию он получит имя origin), выполняет <code>git fetch</code>
 	для этого репозитория и, наконец, обновляет вашу рабочую директорию до последнего коммита, используя <code>git checkout</code>.
 </span>
-<br>
 <hr>
 <span class="command">git revert</span>
 <span class="description">
 	- отменить некоторые существующие коммиты.
 </span>
-<br>
 <hr>
 <span class="command">git reset</span>
 <span class="description">
@@ -147,13 +133,11 @@
 	Каждый из этих трех аргументов соответствует трем внутренним механизмам управления
 	состоянием Git: дереву коммитов (HEAD), разделу проиндексированных файлов и рабочему каталогу.
 </span>
-<br>
 <hr>
 <span class="command">git rebase</span>
 <span class="description">
 	- это процесс перемещения последовательности коммитов к новому базовому коммиту или их объединение.
 </span>
-<br>
 <hr>
 <span class="command">git cherry-pick</span>
 <span class="description">
@@ -161,7 +145,6 @@
 	их заново в виде нового коммита наверху текущей ветки. Это может оказаться полезным чтобы забрать
 	парочку коммитов из другой ветки без полного слияния с той веткой.
 </span>
-<br>
 <hr>
 <span class="command">git stash</span>
 <span class="description">
@@ -169,11 +152,12 @@
 	и вернуть файлы к исходному состоянию. То есть <code>git stash</code> прячет изменения в файлах и сохраняет эти изменения отдельно,
 	чтобы потом можно было их вернуть.
 </span>
+<hr>
 <br>
 <hr>
-<span class="command">.gitignore</span>
+<span>Файл </span><span class="command">.gitignore</span>
 <span class="description">
-	- файл в котором хранится список файлов и каталогов,что будут игнорироваться Git-ом.
+	- хранит в себе список файлов и каталогов, что будут игнорироваться Git-ом.
 <hr>
 </span>
 </body>
