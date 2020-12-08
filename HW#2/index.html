@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="ua">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HW#2 HTML</title>
+  <title>HW#2 - HTML</title>
+  <style>
+    td,
+    table,
+    th {
+      border: solid black 1px;
+    }
+  </style>
 </head>
+
 <body>
-  
+
+  <table>
+    <thead>
+      <th>Ім’я</th>
+      <th>Прізвище</th>
+      <th>Телефон</th>
+      <th>Електронна пошта</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Омелько</td>
+        <td>Кайдаш</td>
+        <td>+38 000 123 45 67</td>
+        <td>Omel_Kayda@ukr.net</td>
+      </tr>
+      <tr>
+        <td>Маруся</td>
+        <td>Кайдашиха</td>
+        <td>+38 000 123 45 68</td>
+        <td>Maru_Kayda@ukr.net</td>
+      </tr>
+      <tr>
+        <td>Карпо</td>
+        <td>Кайдашенко</td>
+        <td>+38 000 123 45 69</td>
+        <td>Karp_Kayda@ukr.net</td>
+      </tr>
+      <tr>
+        <td>Лаврін</td>
+        <td>Кайдашенко</td>
+        <td>+38 000 123 45 70</td>
+        <td>Lavr_Kayda@ukr.net</td>
+      </tr>
+      <tr>
+        <td>Мотря</td>
+        <td>Кайдашенчиха</td>
+        <td>+38 000 123 45 71</td>
+        <td>Motr_Kayda@ukr.net</td>
+      </tr>
+      <tr>
+        <td>Мелашка</td>
+        <td>Кайдашенчиха</td>
+        <td>+38 000 123 45 72</td>
+        <td>Mela_Kayda@ukr.net</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <input type="text" placeholder="Введіть своє ім’я">
+  <br>
+  <br>
+  <input type="text" placeholder="Введіть своє прізвище">
+  <br>
+  <br>
+  <h3>Вкажіть свою стать?</h3>
+  <input checked type="radio" name="test"><b>Ч</b><br>
+  <br>
+  <input type="radio" name="test"><b>Ж</b><br>
+  <br>
+  <br>
+  <textarea placeholder="Введіть своє запитання" cols="25" rows="5"></textarea>
+  <br>
+  <br>
+  <select name="select">
+    <option selected disabled>Оберіть місто</option>
+    <option value="Kiev">Kiev</option>
+    <option value="Lviv">Lviv</option>
+    <option value="Mariupol">Mariupol</option>
+    <option value="Chernivtsi">Chernivtsi</option>
+  </select>
+  <br>
+  <br>
+  <input type="checkbox" name="lang1" value="Україньска">Україньска<br>
+  <input type="checkbox" name="lang2" value="English">English<br>
+  <input type="checkbox" name="lang3" value="Русский">Русский<br>
+<br>
+<br>
+<input type="submit" value="Надіслати">
 </body>
+
 </html>
