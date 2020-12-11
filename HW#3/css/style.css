@@ -1,0 +1,18 @@
+body {
+  background-color: #2C2C2C;
+  color: #fff;
+  font-size: 24px;
+}
+
+.table,
+.row-1,
+.row-2,
+.row-3,
+.row-4{
+  
+  border: solid 0.5px #626262;
+} 
+
+.table{
+  max-width: 60%;
+}
