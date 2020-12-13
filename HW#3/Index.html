@@ -1,236 +1,192 @@
 <!DOCTYPE html>
-<html lang="ua">
-<!-- заменить на эн -->
+<html lang="ru">
+<!-- сменить на эн -->
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HW#3 – CSS</title>
-  <link rel="stylesheet" href="css/reset.css" />
+  <title>HW#3 Технологія CSS</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
-<body>
+<body class="main">
 
-  <section class="oll-data">
+  <h3 class="info-hw">HW#3 "Технологія CSS (Cascading Style Sheet)"<br> Yurchenko Bohdan</h3>
+
+  <section class="content">
+
 
     <div class="table">
 
-      <div class="row-1 content">
-        <div class="data-1">
-          <div class="head-data">
-            <span>
-              Name
-            </span>
-            <a href="#" class="triangle">
-              <img class="down-arrow" src="svg/down-arrow.svg" alt="arrow">
-            </a>
-          </div>
+      <div class="head-row">
+        <div class="head-left-col">
+          <p class="title-head-left-col">Name</p>
+          <a href="#" class="btn-head-left-col">
+            <img src="svg/down-arrow.svg" alt="more option" class="svg-btn-head-left-col">
+          </a>
         </div>
-        <div class="data-2">
-          <div class="head-data">
-            <span>
-              Date
-            </span>
-          </div>
+        <div class="head-right-col">
+          <p class="title-head-right-col">Date</p>
         </div>
       </div>
 
-      <div class="row-2 content">
-        <div class="data-1">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            <span>
-              3 mins ago
-            </span>
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">3 mins ago</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-3 content">
-        <div class="data-1">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            <span>
-              Yesterday
-            </span>
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">Yesterday</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-4 content">
-        <div class="data-1">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            <span>
-              June 1st, 2019
-            </span>
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">June 1st, 2019</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
-
       </div>
 
     </div>
 
+
     <div class="table">
 
-      <div class="row-1 content">
-        <div class="data-1">
-          <div class="head-data">
-            <input class="check" type="checkbox" name="file" value="choice">
-            <span>
-              Name
-            </span>
-            <a href="#" class="triangle">
-              <img class="down-arrow" src="svg/down-arrow.svg" alt="arrow">
-            </a>
-          </div>
+      <div class="head-row">
+        <div class="head-left-col">
+          <input class="check-file" type="checkbox" name="file" value="choice" checked>
+          <p class="title-head-left-col">Name</p>
+          <a href="#" class="btn-head-left-col">
+            <img src="svg/down-arrow.svg" alt="more option" class="svg-btn-head-left-col">
+          </a>
         </div>
-        <div class="data-2">
-          <div class="head-data">
-            Date
-          </div>
+        <div class="head-right-col">
+          <p class="title-head-right-col">Date</p>
         </div>
       </div>
 
-      <div class="row-2 content">
-        <div class="data-1">
-          <input class="check" type="checkbox" name="file" value="choice">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <input class="check-file" type="checkbox" name="file" value="choice">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            3 mins ago
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">3 mins ago</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-3 content">
-        <div class="data-1">
-          <input class="check" type="checkbox" name="file" value="choice">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <input class="check-file" type="checkbox" name="file" value="choice">
+          <a href="#" class="download-file">File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            Yesterday
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">Yesterday</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-4 content">
-        <div class="data-1">
-          <input class="check" type="checkbox" name="file" value="choice">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <input class="check-file" type="checkbox" name="file" value="choice">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            June 1st, 2019
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">June 1st, 2019</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
-
       </div>
 
     </div>
 
+
     <div class="table">
 
-      <div class="row-1 content">
-        <div class="data-1 data-1-search">
-          <div class="head-data">
-            <div class="self-content">
-              Name!
-              <a href="#" class="triangle">
-                <img class="down-arrow" src="svg/down-arrow.svg" alt="arrow">
-              </a>
-            </div>
-          </div>
+      <div class="head-row">
+        <div class="head-left-col">
+          <p class="title-head-left-col">Name</p>
+          <a href="#" class="btn-head-left-col">
+            <img src="svg/down-arrow.svg" alt="more option" class="svg-btn-head-left-col">
+          </a>
         </div>
-        <div class="data-2 data-2-search data-2-row-2">
-          <div class="head-data">
-            <div class="self-content">
-              Date!
-            </div>
-          </div>
-          <input class="search" type="text" name="search" placeholder="Search..">
+        <div class="head-right-col">
+          <p class="title-head-right-col">Date</p>
+          <input type="search" class="search" placeholder="Search..." />
         </div>
       </div>
 
-      <div class="row-2 content">
-        <div class="data-1">
-          <img class="folder" src="svg/folder.svg" alt="icon-folder">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <img class="folder-svg" src="svg/folder.svg" alt="folder icon">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            <span>
-              3 mins ago
-            </span>
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">3 mins ago</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-3 content">
-        <div class="data-1">
-          <img class="folder" src="svg/folder.svg" alt="icon-folder">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <img class="folder-svg" src="svg/folder.svg" alt="folder icon">
+          <a href="#" class="download-file">File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            Yesterday
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">Yesterday</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
       </div>
 
-      <div class="row-4 content">
-        <div class="data-1">
-          <img class="folder" src="svg/folder.svg" alt="icon-folder">
-          <a href="#" class="drop-file">File.pdf</a>
+      <div class="row-data">
+        <div class="data-left-col">
+          <img class="folder-svg" src="svg/folder.svg" alt="folder icon">
+          <a href="#" class="download-file" download>File.pdf</a>
         </div>
-        <div class="data-2 data-2-row-2">
-          <div class="last-modified">
-            June 1st, 2019
-          </div>
-          <a class="more-toggle" href="#">
-            <img class="ellipsis" src="svg/ellipsis.svg" alt="more details">
+        <div class="data-right-col">
+          <p class="data-last-modified">June 1st, 2019</p>
+          <a href="#" class="more-option-svg">
+            <img src="svg/ellipsis.svg" alt="more option" class="ellipsis">
           </a>
         </div>
-
       </div>
+
 
     </div>
+
 
   </section>
+
 
 </body>
 
