@@ -1,0 +1,140 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.wrapper {
+  width: auto;
+  height: 782px;
+  background-image: url('../assets/Bg.png');
+  background-size: 100%;
+}
+
+.inner-wrapper {
+  max-width: 1105px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-menu-nav {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+a.item-menu-nav:first-child {
+  font-weight: bold;
+  padding: 0;
+}
+
+.btn-lang-header {
+  border: none;
+  background-color:rgba(213, 32, 71, 0.1);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+  display: inline-block;
+}
+
+.flag-usa-btn {
+  width: 32px;
+  height: 32px;
+}
+
+.language-code {
+  margin-left: 7px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.arrow-dropdown {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-sign-header {
+  color: #fff;
+  width: 114px;
+  height: 44px;
+  margin-left: 20px;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  background-color: rgba(213, 32, 71, 0.1);
+}
+
+:hover.btn-sign-header {
+  background-color: #fff;
+  color: #CF4322;
+}
+
+.brand-name {
+  margin-top: 177px;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.praice {
+  max-width: 540px;
+  max-height: 124px;
+  margin-top: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 15px 20px 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn-sign-content {
+  display: block;
+  margin-top: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ED4C5C;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+:hover.btn-sign-content {
+  background-color: #E34742;
+  color: #fff;
+  border: solid 1px #fff;
+}
