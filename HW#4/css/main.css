@@ -36,8 +36,11 @@ body {
 }
 
 a.item-menu-nav:first-child {
-  font-weight: bold;
   padding: 0;
+}
+
+:hover.item-menu-nav{
+  font-weight: bold;
 }
 
 .btn-lang-header {
