@@ -4,17 +4,15 @@
   box-sizing: border-box;
 }
 
-/* div,
-p {
-  border: solid 1px black;
-} */
-
 body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  background-color: black;
   padding-left: calc((100% - 1440px) / 2);
   padding-right: calc((100% - 1440px) / 2);
+}
+
+a:focus {
+  outline: none;
 }
 
 .content-blok {
@@ -71,11 +69,20 @@ body {
 .svg-logo {
   width: 32px;
   height: 32px;
+  margin-right: 20px;
+  border: solid 1px #ED4C5C;
+  border-radius: 3px;
+}
+
+.svg-logo:hover {
+  border: solid 1px white;
+  border-radius: 3px;
 }
 
 .store-link {
-  margin-right: 20px;
   text-decoration: none;
+  height: 0;
+  width: 0;
 }
 
 .windows {
@@ -187,6 +194,12 @@ body {
   color: #FFFFFF;
 }
 
+.btn-submit:hover {
+  background: #FFFFFF;
+  border: 1.5px solid #ED4C5C;
+  color: #ED4C5C;
+}
+
 .footer-content {
   padding: 85px 196px 86px 166px;
   width: 1440px;
@@ -248,11 +261,21 @@ body {
   margin-bottom: 141px;
 }
 
-.desc-item {
+.desc-item,
+.link-service,
+.link-address {
   font-weight: normal;
   font-size: 12px;
   line-height: 150%;
   color: #101010;
+  text-decoration: none;
+}
+
+.link-service:hover,
+.item-mail-footer:hover,
+.link-address:hover,
+.item-tel-footer:hover {
+  color: #ED4C5C;
 }
 
 .item-social-link {
