@@ -105,6 +105,10 @@ a:focus {
   padding: 117px 165px 78px 176px;
 }
 
+.info-contact {
+  width: 50%;
+}
+
 .title-col-info-contact {
   width: 445px;
   height: 107px;
@@ -204,12 +208,10 @@ a:focus {
   width: 1440px;
   height: 435px;
   background: #FAFAFA;
-}
-
-.row-item-footer {
   display: flex;
   flex-direction: row;
 }
+
 
 .item-address,
 .item-footer,
