@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: none;
+}
+
+a,
+button {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 1600px;
+  height: 4500px;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  padding-top: 50px;
+}
+
+.block {
+  margin-left: 13.75%;
+}
+
+.header-block {
+  width: 1120px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 121px;
+}
+
+.logo-link {
+  width: 49px;
+  height: 35px;
+}
+
+.header-logo-btn {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu-nav-header {
+  width: 322px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-menu-nav {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.item-menu-nav:hover {
+  font-weight: 800;
+  color: #212353;
+}
+
+.demo-btn {
+  width: 210px;
+  height: 60px;
+  left: 1150px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 29px;
+  padding-left: 29px;
+}
+
+.item-btn-demo {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.request-arrow {
+  padding-top: 3px;
+}
+
+.cta-block {
+  margin-top: 130px;
+  width: 1248px;
+  height: 564px;
+  background-image: url(../assets/bcg-cta.png);
+  background-size: 885px 468px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.cta-item {
+  width: 645px;
+  height: 184px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+}
+
+.desc-item {
+  margin-top: 50px;
+  width: 342px;
+  height: 120px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.promo-block {
+  margin-top: 100px;
+  width: 1117px;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-btn {
+  margin-top: 50px;
+  width: 170px;
+  height: 60px;
+  background: #9C69E2;
+  border-radius: 50px;
+}
+
+.item-more-btn {
+  width: 96px;
+  height: 29px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
+.image-promo {
+  width: 477px;
+  height: 504px;
+}
+
+.promo-desc {
+  margin-top: 125px;
+  width: 475px;
+  height: 100px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.promo-item {
+  width: 475px;
+  height: 100px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.features-block {
+  margin-top: 150px;
+  width: 1137px;
+  height: 1002px;
+}
+
+.features-desc {
+  width: 584px;
+  height: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features-item {
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.features-desc-item {
+  width: 584px;
+  height: 58px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #4B5D68;
+}
+
+.features-holder {
+  margin-top: 149px;
+}
+
+.features-card,
+.row-features-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-features-card {
+  margin-bottom: 132px;
+}
+
+.card-img {
+  width: 232px;
+  height: 211px;
+  margin-right: 30px;
+}
+
+.card-header {
+  width: 200px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+  margin-bottom: 20px;
+}
+
+.card-desc {
+  width: 220px;
+  height: 160px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.l-more {
+  width: 87px;
+  height: 26px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.arrow-l-more {
+  margin-left: 20px;
+}
