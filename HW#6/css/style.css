@@ -12,19 +12,24 @@ button {
   cursor: pointer;
 }
 
+a:active,
+a:focus {
+  outline: none;
+}
+
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../assets/fonts/Avenir/Avenir-Roman.ttf")  format("truetype"),
-  url("../assets/fonts/Avenir/Avenir-Roman.woff") format("woff");
+  src: url("../assets/fonts/Avenir/Avenir-Roman.ttf") format("truetype"),
+    url("../assets/fonts/Avenir/Avenir-Roman.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Helvetica';
-  src: url("../assets/fonts/Helvetic/HelveticaRegular.ttf")  format("truetype"),
-  url("../assets/fonts/Helvetic/HelveticaRegular.woff") format("woff");
+  src: url("../assets/fonts/Helvetic/HelveticaRegular.ttf") format("truetype"),
+    url("../assets/fonts/Helvetic/HelveticaRegular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
@@ -130,7 +135,7 @@ button {
 .cta-item {
   width: 645px;
   height: 184px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 80px;
   line-height: 110%;
@@ -185,7 +190,7 @@ button {
   margin-top: 125px;
   width: 475px;
   height: 100px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -195,7 +200,7 @@ button {
 .promo-item {
   width: 475px;
   height: 100px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -217,7 +222,7 @@ button {
 
 .features-item {
   height: 52px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -257,7 +262,7 @@ button {
 
 .card-header {
   width: 200px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 24px;
   line-height: 130%;
   color: #212353;
@@ -300,7 +305,7 @@ button {
 .feedback-header {
   width: 405px;
   height: 52px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -386,7 +391,7 @@ button {
 .free-item {
   width: 405px;
   height: 52px;
-  font-family: "Helvetica",sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
@@ -500,7 +505,7 @@ button {
   margin-right: 50px;
 }
 
-.footer-item-sm{
+.footer-item-sm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
