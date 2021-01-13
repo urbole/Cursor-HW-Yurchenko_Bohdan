@@ -11,419 +11,444 @@
 
 <body>
 
-
-
-  <header class="head column">
-
-    <img src="assets/f-logo.svg" alt="logo" class="logo">
-
-    <nav class="navigation">
-      <a href="#" class="nav-link">
-        <img src="assets/nav-home.svg" alt="logo homepage link" class="nav-link-img">
-      </a>
-      <a href="#" class="nav-link">
-        <img src="assets/nav-hat.svg" alt="????" class="nav-link-img">
-      </a>
-      <a href="#" class="nav-link">
-        <img src="assets/nav-bust.svg" alt="????" class="nav-link-img">
-      </a>
-      <a href="#" class="nav-link">
-        <img src="assets/nav-mail.svg" alt="????" class="nav-link-img">
-      </a>
-      <a href="#" class="nav-link">
-        <img src="assets/nav-setings.svg" alt="????" class="nav-link-img">
-      </a>
-      <a href="#" class="nav-link">
-        <img src="assets/nav-log-out.svg" alt="????" class="nav-link-img">
-      </a>
-    </nav>
-
-  </header>
-
-
-
-  <main class="content">
-
-
-    <section class="column-2 column">
-
-
-      <div class="hello">
-        <div class="wrap">
-          <h2 class="hello-header">Hello Josh!</h2>
-          <span class="hello-desc">It’s good to see you again.</span>
+  <div class="wrapper-page">
+    <aside class="sidebar">
+      <span class="brand-name">F.</span>
+      <nav class="navigation-links">
+        <a href="#" class="nav-link">
+          <img src="assets/nav-home.svg" alt="logo homepage link" class="nav-link-img">
+        </a>
+        <a href="#" class="nav-link">
+          <img src="assets/nav-hat.svg" alt="logo courses link" class="nav-link-img">
+        </a>
+        <a href="#" class="nav-link">
+          <img src="assets/nav-bust.svg" alt="logo account link" class="nav-link-img">
+        </a>
+        <a href="#" class="nav-link">
+          <img src="assets/nav-mail.svg" alt="logo mailbox link" class="nav-link-img">
+        </a>
+        <a href="#" class="nav-link">
+          <img src="assets/nav-setings.svg" alt="logo settings link" class="nav-link-img">
+        </a>
+      </nav>
+      <button class="exit  nav-link">
+        <img src="assets/exit.svg" alt="logo exit link" class="exit-img">
+      </button>
+    </aside>
+    <main class="main-content">
+      <section class="column-main">
+        <div class="hello-block">
+          <div class="wrap-hello-content">
+            <h2 class="head-hello">Hello Josh!</h2>
+            <span class="desc-item">It’s good to see you again.</span>
+          </div>
+          <img src="assets/illustration.svg" alt="welcome picture" class="hello-img">
         </div>
-        <img src="assets/illustration.svg" alt="????" class="hello-img">
-      </div>
-
-      <div class="active-courses-switcher">
-
-        <div class="card-active-course">
-          <span class="logo-card">
-            <img src="assets/flag-spanish.svg" alt="????" class="img-logo-card">
-          </span>
-          <div class="about-course">
-            <h4 class="name-course">Spanish B2</h4>
-            <span class="author-course">by Alejandro Velazquez</span>
-          </div>
-          <div class="progress-active-course">
-            <span class="progress-rate">83%</span>
-          </div>
-          <button class="black-btn">Continue</button>
-        </div>
-
-        <button class="btn-switch-course"><img src="assets/arrow-l.svg" alt="????" class="img-left-switch">
-        </button>
-        <button class="btn-switch-course"><img src="assets/arow-r.svg" alt="????" class="img-right-switch">
-        </button>
-
-      </div>
-
-      <div class="available-courses">
-
-        <h3 class="header-block">Courses</h3>
-
-        <section class="tabs-available-courses">
-
-
-          <input type="radio" name="tab-courses" id="tab-courses-1" checked />
-          <label for="tab-courses-1">All Courses</label>
-
-          <input type="radio" name="tab-courses" id="tab-courses-2" />
-          <label for="tab-courses-2">The Newest</label>
-
-          <input type="radio" name="tab-courses" id="tab-courses-3" />
-          <label for="tab-courses-3">Top Rated</label>
-
-          <input type="radio" name="tab-courses" id="tab-courses-4" />
-          <label for="tab-courses-4">Most Popular</label>
-
-          <div id="all-courses">
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/figma-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Learn Figma</h4>
-                <span class="author-course">by Christopher Morgan</span>
+        <div class="slider-active-courses-cards">
+          <div class="card-active-course">
+            <div class="warp-logo-about-active-course">
+              <div class="warp-logo-card-course">
+                <img src="assets/flag-spanish.svg" alt="image Spanish flag" class="img-logo-card">
               </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">6h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,9</span>
-              <button class="black-btn">View course</button>
+              <div class="wrap-about-course">
+                <h4 class="name-course">Spanish B2</h4>
+                <span class="author-course">by Alejandro Velazquez</span>
+              </div>
             </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/analog-photography-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Analog photography</h4>
-                <span class="author-course">by Gordon Norman</span>
+            <div class="warp-rate-btn-active-course">
+              <div class="progress-active-course">
+                <span class="progress-rate">83%</span>
               </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">3h 15min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,7</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/instagram-logo.png" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Master Instagram</h4>
-                <span class="author-course">by Sophie Gill</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">7h 40min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,6</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/basics-of-drawing-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Basics of drawing</h4>
-                <span class="author-course">by Jean Tate</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">11h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,8</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/photoshop-essence-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Photoshop - Essence</h4>
-                <span class="author-course">by David Green</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">5h 35min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,7</span>
-              <button class="black-btn">View course</button>
+              <button class="black-btn">Continue</button>
             </div>
 
           </div>
-
-          <div id="the-newest">
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/instagram-logo.png" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Master Instagram</h4>
-                <span class="author-course">by Sophie Gill</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">7h 40min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,6</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-          </div>
-
-          <div id="top-rated">
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/figma-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Learn Figma</h4>
-                <span class="author-course">by Christopher Morgan</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">6h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,9</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/basics-of-drawing-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Basics of drawing</h4>
-                <span class="author-course">by Jean Tate</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">11h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,8</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-          </div>
-
-          <div id="most-popular">
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/figma-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Learn Figma</h4>
-                <span class="author-course">by Christopher Morgan</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">6h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,9</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/analog-photography-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Analog photography</h4>
-                <span class="author-course">by Gordon Norman</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">3h 15min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,7</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/basics-of-drawing-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Basics of drawing</h4>
-                <span class="author-course">by Jean Tate</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">11h 30min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,8</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-            <div class="card-available-course">
-              <span class="logo-card">
-                <img src="assets/photoshop-essence-logo.svg" alt="????" class="img-logo-card">
-              </span>
-              <div class="about-course">
-                <h4 class="name-course">Photoshop - Essence</h4>
-                <span class="author-course">by David Green</span>
-              </div>
-              <span class="img-duration">
-                <img src="assets/clock.svg" alt="????" class="clock-img">
-              </span>
-              <span class="duration-course">5h 35min</span>
-              <span class="img-rating">
-                <img src="assets/flame.svg" alt="????" class="flame-img">
-              </span>
-              <span class="rating-course">4,7</span>
-              <button class="black-btn">View course</button>
-            </div>
-
-          </div>
-
-
-        </section>
-
-      </div>
-
-
-    </section>
-
-
-    <section class="column-3 column">
-
-
-      <div class="tools-self-info">
-
-        <div class="top-tools-panel">
-          <input type="search" class="search">
-          <img src="assets/notification.svg" alt="????" class="img-notification">
-          <img src="assets/userpic.png" alt="????" class="img-userpic">
-          <img src="assets/arrow-d.svg" alt="????" class="img-down-arrow">
-        </div>
-
-        <div class="history-active-courses">
-          <div class="counter-history">
-            <span class="number-item-counter-history">11</span>
-            <span class="desc-item-counter-history">Courses completed</span>
-          </div>
-          <div class="counter-history">
-            <span class="number-item-counter-history">4</span>
-            <span class="desc-item-counter-history">Courses in progress</span>
+          <div class="wrap-switch-buttons">
+            <button class="btn-switch-course">
+              <img src="assets/arrow-l.svg" alt="image left arrow link switch courses button" class="img-left-switch">
+            </button>
+            <button class="btn-switch-course">
+              <img src="assets/arow-r.svg" alt="image right arrow link switch courses button" class="img-right-switch">
+            </button>
           </div>
         </div>
+        <div class="available-courses-block">
+          <h3 class="head-block">Courses</h3>
+          <section class="tabs-available-courses">
+            <input type="radio" name="tab-courses" id="tab-courses-1" checked />
+            <label for="tab-courses-1">All Courses</label>
+            <input type="radio" name="tab-courses" id="tab-courses-2" />
+            <label for="tab-courses-2">The Newest</label>
+            <input type="radio" name="tab-courses" id="tab-courses-3" />
+            <label for="tab-courses-3">Top Rated</label>
+            <input type="radio" name="tab-courses" id="tab-courses-4" />
+            <label for="tab-courses-4">Most Popular</label>
+            <div id="all-courses">
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/figma-logo.svg" alt="image figma logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Learn Figma</h4>
+                    <span class="author-course">by Christopher Morgan</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
 
-      </div>
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">6h 30min</span>
+                    </div>
 
-      <div class="self-statistic">
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,9</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/analog-photography-logo.svg" alt="image lens aperture for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Analog photography</h4>
+                    <span class="author-course">by Gordon Norman</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">3h 15min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,7</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/instagram-logo.svg" alt="image instagram logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Master Instagram</h4>
+                    <span class="author-course">by Sophie Gil</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">7h 40min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,6</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/basics-of-drawing-logo.svg" alt="picture of a pencil for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Basics of drawing</h4>
+                    <span class="author-course">by Jean Tate</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">11h 30min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,8</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/photoshop-essence-logo.svg" alt="image photoshop logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Photoshop - Essence</h4>
+                    <span class="author-course">by David Green</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">5h 35min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,7</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+            </div>
+            <div id="the-newest">
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/instagram-logo.svg" alt="image instagram logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Master Instagram</h4>
+                    <span class="author-course">by Sophie Gil</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">7h 40min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,6</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+            </div>
+            <div id="top-rated">
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/figma-logo.svg" alt="image figma logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Learn Figma</h4>
+                    <span class="author-course">by Christopher Morgan</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
 
-        <h3 class="header-block">Your statistics</h3>
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">6h 30min</span>
+                    </div>
 
-        <section class="tabs-statistic">
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,9</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/basics-of-drawing-logo.svg" alt="picture of a pencil for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Basics of drawing</h4>
+                    <span class="author-course">by Jean Tate</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">11h 30min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,8</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+            </div>
+            <div id="most-popular">
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/figma-logo.svg" alt="image figma logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Learn Figma</h4>
+                    <span class="author-course">by Christopher Morgan</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
 
-          <input type="radio" name="tab-statistic" id="tab-statistic-1" checked />
-          <label for="tab-statistic-1">Learning Hours</label>
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">6h 30min</span>
+                    </div>
 
-          <input type="radio" name="tab-statistic" id="tab-statistic-2" />
-          <label for="tab-statistic-2">My Courses</label>
-
-          <button class="btn-statistic">
-            <span class="item-btn-statistic">Weekly</span>
-            <img src="assets/arrow-d.svg" alt="????" class="img-down-arrow">
-          </button>
-
-          <div id="learning-hours">
-            <img src="assets/weekly-graph.png" alt="????" class="img-tab-item">
-          </div>
-          <div id="my-courses">
-            <img src="assets/baustelle-clipart.png" alt="????" class="img-tab-item img-baustelle-clipart">
-          </div>
-
-        </section>
-
-
-      </div>
-
-      <div class="promo-block">
-
-        <div class="item-promo">
-          <h3 class="header-block promo-header-block">Lern even more!</h3>
-          <span class="desc-promo">Unlock premium features only for $9.99 per month.</span>
-          <button class="black-btn promo-black-btn">Go Premium</button>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,9</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/analog-photography-logo.svg" alt="image lens aperture for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Analog photography</h4>
+                    <span class="author-course">by Gordon Norman</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">3h 15min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,7</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/basics-of-drawing-logo.svg" alt="picture of a pencil for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Basics of drawing</h4>
+                    <span class="author-course">by Jean Tate</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">11h 30min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,8</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+              <div class="card-available-course">
+                <div class="warp-logo-about-available-course">
+                  <div class="warp-logo-card-course">
+                    <img src="assets/photoshop-essence-logo.svg" alt="image photoshop logo for courses card" class="img-logo-card">
+                  </div>
+                  <div class="wrap-about-course">
+                    <h4 class="name-course">Photoshop - Essence</h4>
+                    <span class="author-course">by David Green</span>
+                  </div>
+                </div>
+                <div class="warp-info-course-btn">
+                  <div class="wrap-duration-rating-course">
+                    <div class="wrap-duration-active-course">
+                      <img src="assets/clock.svg" alt="clock duration image for courses card" class="img-clock">
+                      <span class="timemeter-duration-course">5h 35min</span>
+                    </div>
+                    <div class="wrap-rating-course">
+                      <img src="assets/flame.svg" alt="flame rating image for courses card" class="img-flame">
+                      <span class="rating-course-item">4,7</span>
+                    </div>
+                  </div>
+                  <button class="black-btn">View course</button>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </section>
+      <section class="column-info">
+        <div class="tools-info-panel">
+          <div class="warp-tools">
+            <input type="search" class="search">
+            <div class="warp-buttons-tools-panel">
+              <button class="btn-tools-panel">
+                <img src="assets/notification.png" alt="image " class="img-notification">
+              </button>
+              <div class="wrap-user-arrow">
+                <button class="btn-tools-panel">
+                  <img src="assets/userpic.png" alt="image bell for notifications" class="img-userpic">
+                </button>
+                <button class="btn-tools-panel">
+                  <img src="assets/arrow-d.svg" alt="image gown arrow for button" class="img-down-arrow">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="warp-counters-history">
+            <div class="counter-history">
+              <span class="number-item-counter-history">11</span>
+              <span class="desc-item desc-item-counter-history">Courses completed</span>
+            </div>
+            <div class="counter-history">
+              <span class="number-item-counter-history">4</span>
+              <span class="desc-item desc-item-counter-history">Courses in progress</span>
+            </div>
+          </div>
+        </div>
+        <div class="self-statistics">
+          <h3 class="head-block">Your statistics</h3>
+          <section class="tabs-statistics">
+            <input type="radio" name="tab-statistics" id="tab-statistics-1" checked />
+            <label for="tab-statistics-1">Learning Hours</label>
+            <input type="radio" name="tab-statistics" id="tab-statistics-2" />
+            <label for="tab-statistics-2">My Courses</label>
+            <button class="btn-statistics">
+              <span class="item-btn-statistics">Weekly</span>
+              <img src="assets/arrow-d.svg" alt="image gown arrow for button" class="img-down-arrow">
+            </button>
+            <div id="learning-hours">
+              <img src="assets/weekly-graph.png" alt="graphics image" class="img-tab-item">
+            </div>
+            <div id="my-courses">
+              <img src="assets/baustelle-clipart.png" alt="image for the section that is in development" class="img-tab-item img-baustelle-clipart">
+            </div>
 
-        <img src="assets/book.svg" alt="????" class="promo-img">
+          </section>
+        </div>
+        <div class="promo-block">
+          <div class="wrap-items-promo">
+            <h3 class="head-block">Lern even more!</h3>
+            <span class="desc-item">Unlock premium features only for $9.99 per month.</span>
+            <button class="black-btn">Go Premium</button>
+          </div>
+          <img src="assets/book.svg" alt="image books for the promo block" class="promo-img">
+        </div>
+      </section>
+    </main>
+  </div>
 
-      </div>
-
-    </section>
-
-
-  </main>
-
-
-  
 </body>
 
 </html>
