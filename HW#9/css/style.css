@@ -422,16 +422,14 @@ body {
 @media (max-width:990px) {
 
   .wahatisdoes {
-    height: 857px;
+    height: 1000px;
     background-position: bottom left;
-  }
-
-  .wahatisdoes>.content-block {
-    flex-wrap: wrap-reverse;
   }
 
   .wahatisdoes .content-block {
     padding-top: 0;
+    height: 1000px;
+    flex-wrap: wrap-reverse;
   }
 
   .desc-wahatisdoes {
@@ -505,7 +503,7 @@ body {
   }
 
   .wahatisdoes {
-    height: 857px;
+    height: 1000px;
     background-image: url(../assets/img/whatisdoes-bcg-1440.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -734,7 +732,7 @@ body {
   }
 
   .wahatisdoes {
-    height: 857px;
+    height: 1000px;
     background-image: url(../assets/img/whatisdoes-bcg-520.png);
     background-repeat: no-repeat;
     background-position: bottom;
