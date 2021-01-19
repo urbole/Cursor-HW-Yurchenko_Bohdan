@@ -7,9 +7,7 @@
   text-decoration: none;
   border-style: none;
   outline: none;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: normal
+  color: black;
 }
 
 a:active,
@@ -18,7 +16,752 @@ a:focus {
 }
 
 body {
-  max-width: 1440px;
-  max-height: 900px
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
+.df-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.df-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content-block {
+  max-width: 1114px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head {
+  height: 665px;
+  padding-top: 61px;
+  background-color: #F4F6F9;
+  background-image: url(../assets/img/head-bcg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+
+.logo-head {
+  width: 99px;
+  height: 32px;
+}
+
+.head-content {
+  margin-top: 88px;
+  height: 225px;
+}
+
+.header-head {
+  margin-top: 136px;
+  width: 546px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  color: #333333;
+}
+
+.desc-content {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.desc-head {
+  margin-top: 25px;
+  width: 460px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4F4F4F;
+}
+
+.app-link {
+  width: 348px;
+  justify-content: space-between;
+}
+
+.wahatisdoes {
+  height: 593px;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 0.3) 67.14%), url(../assets/img/whatisdoes-bcg-1440.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.wahatisdoes .content-block {
+  padding-top: 83px;
+  gap: 12%;
+}
+
+.screenshots-wahatisdoes {
+  width: 500px;
+  height: 495px;
+  position: relative;
+}
+
+.img-card-wahatisdoes-top {
+  position: absolute;
+  top: 0%;
+  left: -14.2%;
+  z-index: 1;
+}
+
+.img-card-wahatisdoes-bottom {
+  position: absolute;
+  top: 43%;
+  left: 21.1%;
+}
+
+.img-cards-wahatisdoes-520 {
+  display: none;
+}
+
+.desc-wahatisdoes {
+  width: 43%;
+}
+
+.wahatisdoes .headers-desc {
+  padding-top: 50px;
+}
+
+.wahatisdoes .sub-headers-desc {
+  margin-top: 28px;
+}
+
+.wahatisdoes .desc-content {
+  margin-top: 27px;
+  height: 62px;
+}
+
+.wahatisdoes .link-learn-more {
+  margin-top: 55px;
+}
+
+.headers-desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+}
+
+.sub-headers-desc {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+}
+
+.link-learn-more {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+}
+
+.getstarted {
+  height: 716px;
+  background-image: url(../assets/img/getstarted-full-bcg.jpg);
+  background-position: top left;
+  padding-top: 216px;
+}
+
+.getstarted .content-block {
+  height: 440px;
+  width: 33%;
+  justify-content: flex-start;
+  margin-left: 161px;
+}
+
+.getstarted .desc-content {
+  margin-top: 25px;
+}
+
+.getstarted .sub-headers-desc {
+  margin-top: 27px;
+  text-align: center;
+}
+
+.getstarted .link-learn-more {
+  margin-top: 54px;
+}
+
+.features {
+  background-image: url(../assets/img/features-bcg.png);
+  height: 735px;
+  padding-top: 74px;
+}
+
+.features .content-block {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8%;
+}
+
+.sub-header-wrap-features {
+  font-size: 28px;
+  line-height: 37px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.blocks-features {
+  margin-top: 2.7%;
+  height: 160px;
+  width: 311px;
+}
+
+.desc-blocks-features {
+  margin-top: 8px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.oursay {
+  height: 431px;
+  padding-top: 67px;
+}
+
+.oursay .content-block {
+  margin: 0;
+  width: 1440px;
+}
+
+.oursay .sub-headers-desc {
+  width: inherit;
+  text-align: center;
+}
+
+.slider-oursay {
+  margin-top: 63px;
+  width: 1440px;
+}
+
+.cards-slider {
+  width: 100%;
+  position: relative;
+  gap: 2.55%;
+}
+
+.item-cards-slider-mobile {
+  display: none;
+}
+
+.btn-pagination {
+  width: 67px;
+  height: 72px;
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.left-btn-pagination {
+  top: 32%;
+  left: 6.5%;
+}
+
+.right-btn-pagination {
+  top: 31.5%;
+  left: 89%;
+}
+
+.item-pagination {
+  text-align: center;
+  margin-top: 39px;
+}
+
+.mentions {
+  height: 278px;
+  background-color: #FAFAFA;
+  padding-top: 56px;
+}
+
+.mentions .content-block {
+  height: inherit;
+
+}
+
+.mentions .sub-headers-desc {
+  text-align: center;
+}
+
+.row-mentions {
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.getupclose {
+  height: 483px;
+  background-image: url(/assets/img/getupclose-bcg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-top: 7.3%;
+  padding-left: 42%;
+}
+
+.getupclose .content-block {
+  height: 277px;
+  width: 554px;
+}
+
+.getupclose .desc-content {
+  margin-top: 33px;
+}
+
+.getupclose .app-link {
+  margin-top: 50px;
+  margin-left: 1px;
+}
+
+.footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 127px;
+  background-color: #00ADEE;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1%;
+  padding: 0 3%;
+}
+
+.links-footer {
+  width: 356px;
+  gap: 10%;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+}
+
+.social-links-footer {
+  width: 110px;
+  justify-content: space-between;
+
+}
+
+@media (max-width:1400px) {
+
+  .item-cards-slider:nth-child(4) {
+    display: none;
+  }
+
+  .slider-oursay {
+    width: auto;
+  }
+
+  .oursay .content-block {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1260px) {
+  .head {
+    background: linear-gradient(60deg, rgba(244, 246, 249, 1) 43%, rgba(244, 246, 249, 0) 65%), url(../assets/img/head-bcg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+}
+
+@media (max-width: 1140px) {
+  .content-block {
+    padding: 0 5%;
+  }
+
+  .img-card-wahatisdoes-top,
+  .img-card-wahatisdoes-bottom {
+    display: none;
+  }
+
+  .img-cards-wahatisdoes-520 {
+    display: block;
+    position: absolute;
+    top: 51px;
+    left: -18px;
+  }
+
+  .screenshots-wahatisdoes {
+    width: 370px;
+  }
+
+  .getstarted .content-block {
+    width: 60%;
+  }
+
+  .features {
+    height: auto;
+  }
+
+  .features .content-block {
+    justify-content: space-evenly;
+  }
+
+  .item-cards-slider:nth-child(5) {
+    display: none;
+  }
+
+  .oursay .content-block {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+}
+
+@media (max-width:990px) {
+
+  .wahatisdoes {
+    height: 857px;
+    background-position: bottom left;
+  }
+
+  .wahatisdoes>.content-block {
+    flex-wrap: wrap-reverse;
+  }
+
+  .wahatisdoes .content-block {
+    padding-top: 0;
+  }
+
+  .desc-wahatisdoes {
+    width: 80%;
+  }
+
+  .mentions {
+    height: auto;
+  }
+
+  .row-mentions {
+    flex-wrap: wrap;
+  }
+
+  .item-mentions {
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .head {
+    padding-top: 32px;
+    height: 525px;
+    background-color: #F4F6F9;
+    background-image: none;
+  }
+
+  .logo-head {
+    margin-bottom: 71px;
+    width: 99px;
+    height: 32px;
+    margin: 0 auto;
+  }
+
+  .header-head {
+    width: 80%;
+    height: 119px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .desc-head {
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4F4F4F;
+    text-align: center;
+  }
+
+  .desc-content {
+    width: 100%;
+    height: 70px;
+    margin-top: 31px;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4F4F4F;
+  }
+
+  .app-link {
+    width: 100%;
+    margin-top: 46px;
+    padding: 0 15%;
+  }
+
+  .wahatisdoes {
+    height: 857px;
+    background-image: url(../assets/img/whatisdoes-bcg-1440.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .wahatisdoes>.content-block {
+    width: 80%;
+  }
+
+  .screenshots-wahatisdoes {
+    height: 360px;
+  }
+
+  .desc-wahatisdoes {
+    width: auto;
+    height: 469px;
+    padding: 0 20px;
+    align-content: center;
+  }
+
+  .desc-wahatisdoes .headers-desc {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .desc-wahatisdoes .sub-headers-desc {
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .desc-wahatisdoes .desc-content {
+    height: auto;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .desc-wahatisdoes .link-learn-more {
+    margin-top: 23px;
+    text-align: center;
+  }
+
+  .getstarted {
+    padding-top: 61px;
+    height: 1024px;
+    background-image: url(/assets/img/getstarted-full-bcg-720.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .getstarted .headers-desc {
+    text-align: center;
+  }
+
+  .getstarted .content-block {
+    width: auto;
+    margin-left: 18px;
+  }
+
+  .getstarted .link-learn-more {
+    margin-top: 71px;
+    text-align: center;
+  }
+
+  .features {
+    height: 1771px;
+    padding-top: 40px;
+    background-image: none;
+  }
+
+  .features .content-block {
+    margin-top: 69px;
+    justify-content: center;
+  }
+
+  .sub-header-wrap-features {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .blocks-features {
+    margin-top: 0px;
+    height: 178px;
+  }
+
+  .icon-blocks {
+    margin-left: 144px;
+  }
+
+  .color-svg-features {
+    fill: #00ADEE;
+  }
+
+  .desc-blocks-features {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4F4F4F;
+  }
+
+  .oursay {
+    height: 400px;
+    padding-top: 51px;
+  }
+
+  .oursay .content-block {
+    width: 360px;
+  }
+
+  .oursay .sub-headers-desc {
+    width: 323px;
+  }
+
+  .slider-oursay {
+    margin-top: 41px;
+    margin-left: 7px;
+    width: 323px;
+  }
+
+  .item-cards-slider,
+  .left-btn-pagination {
+    display: none;
+  }
+
+  .item-cards-slider-mobile {
+    display: block;
+  }
+
+  .right-btn-pagination {
+    left: 85%;
+  }
+
+  .item-pagination {
+    width: 334px;
+    margin-top: 25px;
+  }
+
+  .mentions {
+    height: auto;
+  }
+
+  .row-mentions {
+    flex-wrap: wrap;
+    column-gap: 14%;
+    justify-content: space-around;
+  }
+
+  .item-mentions {
+    margin-top: 0;
+    margin-top: 12px;
+  }
+
+  .item-mentions:last-child {
+    margin-top: 27px;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .getupclose {
+    height: 701px;
+    background-image: url(/assets/img/getupclose-bcg-720.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0;
+    padding: 0 5px;
+  }
+
+  .getupclose .content-block {
+    width: 100%;
+    height: 100%;
+    padding-top: 22px;
+  }
+
+  .getupclose .sub-headers-desc {
+    text-align: center;
+  }
+
+  .getupclose .desc-content {
+    height: auto;
+  }
+
+  .getupclose .app-link {
+    margin-top: 37px;
+    margin-left: -3px;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 1px 5px;
+    height: 210px;
+    background-color: #00ADEE;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links-footer {
+    order: 3;
+    width: 100%;
+    gap: 1%;
+    justify-content: flex-start;
+  }
+
+}
+
+@media (max-width:520px) {
+  .header-head {
+    width: 100%;
+  }
+
+  .app-link {
+    padding: 0;
+  }
+
+  .desc-wahatisdoes .desc-content {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .wahatisdoes {
+    height: 857px;
+    background-image: url(../assets/img/whatisdoes-bcg-520.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .img-card-wahatisdoes-top,
+  .img-card-wahatisdoes-bottom {
+    display: none;
+  }
+
+  .img-cards-wahatisdoes-520 {
+    display: block;
+    position: absolute;
+    top: 51px;
+  }
+
+  .item-mentions {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 44px 1px 21px 19px;
+  }
+
+  .links-footer {
+    margin-bottom: 1px;
+  }
+}
