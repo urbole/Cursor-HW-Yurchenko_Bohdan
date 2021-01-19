@@ -301,7 +301,7 @@ body {
 
 .getupclose {
   height: 483px;
-  background-image: url(/assets/img/getupclose-bcg.png);
+  background-image: url(../assets/img/getupclose-bcg.png);
   background-position: left top;
   background-repeat: no-repeat;
   padding-top: 7.3%;
@@ -556,7 +556,7 @@ body {
   .getstarted {
     padding-top: 61px;
     height: 1024px;
-    background-image: url(/assets/img/getstarted-full-bcg-720.jpg);
+    background-image: url(../assets/img/getstarted-full-bcg-720.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
   }
@@ -674,7 +674,7 @@ body {
 
   .getupclose {
     height: 701px;
-    background-image: url(/assets/img/getupclose-bcg-720.png);
+    background-image: url(../assets/img/getupclose-bcg-720.png);
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0;
