@@ -350,4 +350,9 @@ body {
     margin-left: 5px;
   }
 
+  .header_nav {
+    gap: 0;
+    justify-content: flex-end;
+  }
+
 }
