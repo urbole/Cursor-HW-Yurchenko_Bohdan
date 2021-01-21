@@ -7,9 +7,7 @@ body {
 }
 
 .content_size {
-  /* min-width: 962px; */
   max-width: 984px;
-  /* padding: 0 10px; */
 }
 
 .header {
@@ -18,7 +16,6 @@ body {
   height: 50px;
   border-bottom: solid 1px #DBDBDB;
 }
-
 
 .search_header {
   margin-left: 95px;
@@ -78,6 +75,7 @@ body {
   padding-left: 21px;
   padding-top: 30px;
   margin-bottom: 33px;
+  padding-right: 5px;
 }
 
 .item_userpic {
@@ -106,8 +104,6 @@ body {
 
 .buttons_info_block {
   margin-left: 5px;
-  /* width: 138px; */
-  /* border-radius: none; */
 }
 
 .first_btn_info_block {
@@ -326,11 +322,6 @@ body {
 
   .search_header {
     display: none;
-  }
-
-  .about_user {
-    width: auto;
-    height: auto;
   }
 
   .item_userpic {
