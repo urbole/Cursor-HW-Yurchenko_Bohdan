@@ -13,8 +13,6 @@
 }
 
 body {
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 15px;
   width: 100vw;
    background-color: black;
@@ -34,7 +32,6 @@ body {
   height: inherit;
   padding: 37.5px;
 }
-
 
 .btn-gamburger {
   display: block;
@@ -123,6 +120,7 @@ body {
   height: 150px;
   display: inherit;
   align-items: flex-end;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
 }
 
 .svg-starfighter {
@@ -130,9 +128,34 @@ body {
   height: 45px;
 }
 
-.pendulum-box .svg-path {
-  fill: rgb(218, 206, 206);
+.item-box:nth-child(1) .svg-path{
+  fill: #2B4C66;
 }
+
+.item-box:nth-child(2) .svg-path{
+  fill: #333E53;
+}
+
+.item-box:nth-child(3) .svg-path{
+  fill: #564453;
+}
+
+.item-box:nth-child(4) .svg-path{
+  fill: #7F3F43;
+}
+
+.item-box:nth-child(5) .svg-path{
+  fill: #A43935;
+}
+
+.item-box:nth-child(6) .svg-path{
+  fill: #C53527;
+}
+
+.item-box:nth-child(7) .svg-path{
+  fill: #D53625;
+}
+
 
 .box-left {
   animation-name: box-left;
