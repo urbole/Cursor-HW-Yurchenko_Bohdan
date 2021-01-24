@@ -15,8 +15,8 @@
 body {
   padding-top: 15px;
   width: 100vw;
-   background-color: black;
-   padding-top: 15%;
+  background-color: black;
+  padding-top: 15%;
 }
 
 .wrap_for-swords {
@@ -128,31 +128,31 @@ body {
   height: 45px;
 }
 
-.item-box:nth-child(1) .svg-path{
+.item-box:nth-child(1) .svg-path {
   fill: #2B4C66;
 }
 
-.item-box:nth-child(2) .svg-path{
+.item-box:nth-child(2) .svg-path {
   fill: #333E53;
 }
 
-.item-box:nth-child(3) .svg-path{
+.item-box:nth-child(3) .svg-path {
   fill: #564453;
 }
 
-.item-box:nth-child(4) .svg-path{
+.item-box:nth-child(4) .svg-path {
   fill: #7F3F43;
 }
 
-.item-box:nth-child(5) .svg-path{
+.item-box:nth-child(5) .svg-path {
   fill: #A43935;
 }
 
-.item-box:nth-child(6) .svg-path{
+.item-box:nth-child(6) .svg-path {
   fill: #C53527;
 }
 
-.item-box:nth-child(7) .svg-path{
+.item-box:nth-child(7) .svg-path {
   fill: #D53625;
 }
 
@@ -244,11 +244,11 @@ body {
 
 @keyframes left-shadow {
   0% {
-    transform: translate(0, 0) rotateX(50deg);
+    transform: translate(0, 0) rotateX(60deg);
   }
 
   25% {
-    transform: translate(-90px, 0) rotateY(60deg) rotateX(60deg);
+    transform: translate(-90px, 0) rotateX(60deg) rotateY(30deg);
   }
 
   50% {
