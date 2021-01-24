@@ -248,7 +248,7 @@ body {
   }
 
   25% {
-    transform: translate(-90px, 0) rotateX(60deg) rotateY(30deg);
+    transform: translate(-90px, 0) rotateX(60deg) rotateY(0deg);
   }
 
   50% {
@@ -274,7 +274,7 @@ body {
   }
 
   25% {
-    transform: translate(90px, 0) rotateX(60deg) rotateY(-30deg);
+    transform: translate(90px, 0) rotateX(60deg) rotateY(0deg);
   }
 
   50% {
