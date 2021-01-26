@@ -19,6 +19,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
+
 }
 
 .df-column {
@@ -32,38 +33,36 @@ body {
 }
 
 .main-content {
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 100vw;
 }
 
 .content-block {
-  max-width: 1114px;
-  width: 100%;
+  width: 77.4vw;
   margin: 0 auto;
 }
 
 .head {
   height: 665px;
-  padding-top: 61px;
   background-color: #F4F6F9;
   background-image: url(../assets/img/head-bcg.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
 
+.head .content-block {
+  padding-top: 61.7px;
+}
 
 .logo-head {
-  width: 99px;
+  width: 113px;
   height: 32px;
 }
 
 .head-content {
-  margin-top: 88px;
-  height: 225px;
+  margin-top: 134px;
 }
 
 .header-head {
-  margin-top: 136px;
   width: 546px;
   font-weight: bold;
   font-size: 38px;
@@ -71,16 +70,21 @@ body {
   color: #333333;
 }
 
+.head-app-link {
+  margin-top: 53px;
+}
+
 .desc-content {
   font-size: 16px;
-  line-height: 23px;
+  line-height: 25px;
+  color: #4F4F4F
 }
 
 .desc-head {
   margin-top: 25px;
   width: 460px;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 26px;
   color: #4F4F4F;
 }
 
@@ -89,60 +93,194 @@ body {
   justify-content: space-between;
 }
 
+.app-store-link {
+  height: 50px;
+}
+
 .wahatisdoes {
   height: 593px;
-  background: linear-gradient(270deg, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 0.3) 67.14%), url(../assets/img/whatisdoes-bcg-1440.png);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 1) 58%, rgba(255, 255, 255, 0.3) 82.14%), url(../assets/img/whatisdoes-bcg-1440.png);
   background-repeat: no-repeat;
   background-position: top left;
+  padding-top: 83px;
 }
 
 .wahatisdoes .content-block {
-  padding-top: 83px;
-  gap: 12%;
+  gap: 10.8vw;
+  justify-content: space-between;
 }
 
-.screenshots-wahatisdoes {
-  width: 500px;
-  height: 495px;
+.promo-wahatisdoes {
+  width: 478px;
+  height: 450px;
   position: relative;
 }
 
-.img-card-wahatisdoes-top {
+.promo-card {
+  margin-top: 26px;
+  width: 360px;
+  height: 218.06px;
+  background: #FFFFFF;
+  box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
   position: absolute;
-  top: 0%;
-  left: -14.2%;
   z-index: 1;
 }
 
-.img-card-wahatisdoes-bottom {
-  position: absolute;
-  top: 43%;
-  left: 21.1%;
+.head-card {
+  margin-top: 27px;
+  margin-left: 17px;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
+  color: #4F4F4F;
 }
 
-.img-cards-wahatisdoes-520 {
-  display: none;
+.content-card {
+  margin-left: 17px;
+}
+
+.teams-info {
+  justify-content: space-between;
+}
+
+.competitors {
+  justify-content: space-between;
+}
+
+.competitor-names {
+  margin-top: 13px;
+  width: 87.62px;
+  height: 46.32px;
+}
+
+.match-type {
+  margin-top: 14px;
+  width: 123.85px;
+  height: 25.16px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.competitor-names {
+  width: 76.62px;
+  height: 50.32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.teams-emblem {
+  position: relative;
+}
+
+.img-emblem-arsenal {
+  position: absolute;
+  top: -3px;
+  left: -158px;
+}
+
+.img-emblem-chelsea {
+  position: absolute;
+  top: -3px;
+  left: -99px;
+}
+
+.footer-card {
+  margin-top: 17px;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+  height: 49.27px;
+  left: 163px;
+  top: 942.78px;
+  padding-left: 15.74px;
+  padding-right: 26.24px;
+  background: #EEEEEE;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.footer-text {
+  font-size: 18.8812px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+
+.btn-footer-toggle {
+  position: relative;
+  display: inline-block;
+  width: 27.29px;
+  height: 12.58px;
+  margin: 0;
+  vertical-align: top;
+  background: #979797;
+  border: 1px solid #bbc1e1;
+  border-radius: 104.896px;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2);
+}
+
+.btn-footer-toggle::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -5px;
+  top: -5.5px;
+  width: 21px;
+  height: 21px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 2px rgb(116, 115, 115));
+  border-radius: 50%;
+  transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2);
+  transform: translateX(0);
+}
+
+.btn-footer-toggle:checked::after {
+  transform: translateX(calc(71%));
+  background-color: #fff;
+}
+
+.promo-video {
+  width: 360px;
+  height: 218.06px;
+  position: absolute;
+  bottom: 19px;
+  right: 11px;
+  border-radius: 4px;
+  z-index: 0;
+  box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5)
 }
 
 .desc-wahatisdoes {
   width: 43%;
+  max-width: 546px;
+  justify-content: space-around;
+  height: 406px;
 }
 
 .wahatisdoes .headers-desc {
-  padding-top: 50px;
+  padding-top: 34px;
 }
 
 .wahatisdoes .sub-headers-desc {
-  margin-top: 28px;
+  margin-top: 4px;
 }
 
 .wahatisdoes .desc-content {
   margin-top: 27px;
   height: 62px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4F4F4F;
 }
 
-.wahatisdoes .link-learn-more {
-  margin-top: 55px;
+.wahatisdoes .desc-content-2 {
+  height: 91px;
+  margin-bottom: 26px;
 }
 
 .headers-desc {
@@ -168,38 +306,127 @@ body {
 
 .getstarted {
   height: 716px;
-  background-image: url(../assets/img/getstarted-full-bcg.jpg);
-  background-position: top left;
-  padding-top: 216px;
+  background-image: url(../assets/img/getstarted-bcg-1016.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-top: 77px;
+  position: relative;
+}
+
+.getstarted .bcg-dot {
+  position: absolute;
+  bottom: 153px;
+  right: 619px;
 }
 
 .getstarted .content-block {
-  height: 440px;
-  width: 33%;
-  justify-content: flex-start;
-  margin-left: 161px;
+  height: 539px;
+  gap: 13.7vw;
+}
+
+.getstarted .content-box {
+  margin-top: 138px;
+  margin-left: 11.2%;
+  max-width: 480px;
+  justify-content: flex-end;
+}
+
+.getstarted .headers-desc {
+  margin-bottom: 29px;
 }
 
 .getstarted .desc-content {
-  margin-top: 25px;
+  margin-bottom: 21px;
 }
 
-.getstarted .sub-headers-desc {
-  margin-top: 27px;
-  text-align: center;
+.getstarted .desc-content-2 {
+  margin-bottom: 58px;
 }
 
 .getstarted .link-learn-more {
-  margin-top: 54px;
+  margin-bottom: 74px;
 }
+
+.getstarted .example-box {
+  position: absolute;
+  top: 77px;
+  right: 600px;
+}
+
+.getstarted .wrap-items {
+  position: absolute;
+  top: 0px;
+  right: -353px;
+}
+
+.getstarted .example-item {
+  padding-top: 6px;
+  width: 91px;
+  height: 91px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1), 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstarted .item-bell {
+  position: absolute;
+  top: 64px;
+  left: 26px;
+}
+
+.counter-notification,
+.counter-notification-cart {
+  background: #00ADEE;
+  border: 1.25517px solid #00ADEE;
+  border-radius: 50%;
+  width: 22.66px;
+  height: 22.7px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.0621px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  padding-top: 2px;
+  top: 23px;
+  left: 47px;
+}
+
+.getstarted .item-phone {
+  position: absolute;
+  bottom: 143px;
+  right: -18px;
+}
+
+.svg-item-cart,
+.counter-notification-cart {
+  display: none;
+}
+
 
 .features {
   background-image: url(../assets/img/features-bcg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 735px;
   padding-top: 74px;
+  background-size: cover;
 }
 
 .features .content-block {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6.2vw;
+  justify-content: space-evenly;
+}
+
+.content-features {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -225,14 +452,20 @@ body {
   color: #FFFFFF;
 }
 
+.desc-blocks-features::first-letter {
+  padding-left: 15px;
+  position: relative;
+}
+
+.desc-blocks-features::before {
+  display: block;
+  content: "•";
+  position: absolute;
+}
+
 .oursay {
   height: 431px;
   padding-top: 67px;
-}
-
-.oursay .content-block {
-  margin: 0;
-  width: 1440px;
 }
 
 .oursay .sub-headers-desc {
@@ -242,13 +475,15 @@ body {
 
 .slider-oursay {
   margin-top: 63px;
-  width: 1440px;
 }
 
 .cards-slider {
-  width: 100%;
+  margin: 0 auto;
+  width: 95%;
   position: relative;
   gap: 2.55%;
+  justify-content: center;
+
 }
 
 .item-cards-slider-mobile {
@@ -261,16 +496,17 @@ body {
   position: absolute;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
+  filter: drop-shadow(0px 10px 8px rgb(161, 160, 160));
 }
 
 .left-btn-pagination {
   top: 32%;
-  left: 6.5%;
+  left: 4.1%;
 }
 
 .right-btn-pagination {
-  top: 31.5%;
-  left: 89%;
+  top: 31%;
+  left: 91.1%;
 }
 
 .item-pagination {
@@ -295,60 +531,57 @@ body {
 
 .row-mentions {
   margin-top: 50px;
-  justify-content: space-between;
+  gap: 8%;
   align-items: baseline;
 }
 
 .getupclose {
   height: 483px;
-  background-image: url(../assets/img/getupclose-bcg.png);
+  background: linear-gradient(270deg, rgb(255, 255, 255) 58%, rgba(255, 255, 255, 0.3) 82.14%), url(../assets/img/getupclose-bcg.png);
   background-position: left top;
   background-repeat: no-repeat;
-  padding-top: 7.3%;
-  padding-left: 42%;
+  padding-top: 104px;
+  padding-left: 37.6%;
 }
 
 .getupclose .content-block {
-  height: 277px;
-  width: 554px;
+  height: 280px;
+  width: 532px;
+  margin: 0;
 }
 
 .getupclose .desc-content {
   margin-top: 33px;
+  height: 120px;
 }
 
 .getupclose .app-link {
-  margin-top: 50px;
-  margin-left: 1px;
+  margin-top: 44px;
 }
 
 .footer {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
   height: 127px;
   background-color: #00ADEE;
   align-items: center;
   justify-content: space-around;
-  gap: 1%;
-  padding: 0 3%;
+  padding: 0 2%;
 }
 
-.links-footer {
-  width: 356px;
-  gap: 10%;
+.footer-links {
+  width: 376px;
   justify-content: space-between;
+}
+
+.link-footer {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-
 }
 
 .social-links-footer {
   width: 110px;
   justify-content: space-between;
-
 }
 
 @media (max-width:1400px) {
@@ -373,27 +606,34 @@ body {
     background-position: top right;
   }
 
+  .getstarted {
+    height: 916px;
+    padding-top: 0px;
+  }
+
+  .getstarted .content-box {
+    margin-top: 80px;
+    margin-left: 80px;
+
+  }
+
+  .getstarted .example-box {
+    position: absolute;
+    top: 277px;
+    right: 600px;
+  }
+
+  .row-mentions {
+    gap: 6%;
+  }
+
+
 }
 
 @media (max-width: 1140px) {
-  .content-block {
-    padding: 0 5%;
-  }
 
-  .img-card-wahatisdoes-top,
-  .img-card-wahatisdoes-bottom {
-    display: none;
-  }
-
-  .img-cards-wahatisdoes-520 {
-    display: block;
-    position: absolute;
-    top: 51px;
-    left: -18px;
-  }
-
-  .screenshots-wahatisdoes {
-    width: 370px;
+  .desc-wahatisdoes {
+    width: 60%;
   }
 
   .getstarted .content-block {
@@ -422,18 +662,36 @@ body {
 @media (max-width:990px) {
 
   .wahatisdoes {
-    height: 1000px;
+    height: 1120px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 18%, rgba(255, 255, 255, 0.3) 82.14%), url(../assets/img/whatisdoes-bcg-1440.png);
+    background-repeat: no-repeat;
     background-position: bottom left;
+    padding-top: 40px;
+  }
+
+  .wahatisdoes .headers-desc {
+    padding-top: 45px;
   }
 
   .wahatisdoes .content-block {
     padding-top: 0;
-    height: 1000px;
     flex-wrap: wrap-reverse;
+  }
+
+  .promo-wahatisdoes {
+    margin-top: 60px;
   }
 
   .desc-wahatisdoes {
     width: 80%;
+  }
+
+  .getstarted {
+    height: 1048px;
+  }
+
+  .getstarted .wrap-items {
+    top: 124px;
   }
 
   .mentions {
@@ -442,6 +700,7 @@ body {
 
   .row-mentions {
     flex-wrap: wrap;
+    gap: 2%;
   }
 
   .item-mentions {
@@ -453,33 +712,35 @@ body {
 
 @media (max-width: 720px) {
   .head {
-    padding-top: 32px;
     height: 525px;
     background-color: #F4F6F9;
     background-image: none;
   }
 
+  .head .content-block {
+    padding-top: 32.7px;
+  }
+
+  .head-content {
+    margin-top: 86px;
+  }
+
   .logo-head {
-    margin-bottom: 71px;
-    width: 99px;
-    height: 32px;
     margin: 0 auto;
   }
 
   .header-head {
-    width: 80%;
-    height: 119px;
+    width: auto;
     margin: 0 auto;
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
+    letter-spacing: 0.03em;
     text-align: center;
-    color: #333333;
   }
 
   .desc-head {
-    height: 72px;
-    width: 100%;
+    width: auto;
     font-size: 16px;
     line-height: 26px;
     color: #4F4F4F;
@@ -487,9 +748,6 @@ body {
   }
 
   .desc-content {
-    width: 100%;
-    height: 70px;
-    margin-top: 31px;
     font-size: 16px;
     line-height: 23px;
     text-align: center;
@@ -497,13 +755,13 @@ body {
   }
 
   .app-link {
-    width: 100%;
-    margin-top: 46px;
+    width: auto;
     padding: 0 15%;
   }
 
   .wahatisdoes {
-    height: 1000px;
+    height: 1100px;
+    padding-top: 0px;
     background-image: url(../assets/img/whatisdoes-bcg-1440.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -513,27 +771,21 @@ body {
     width: 80%;
   }
 
-  .screenshots-wahatisdoes {
-    height: 360px;
-  }
-
   .desc-wahatisdoes {
     width: auto;
     height: 469px;
-    padding: 0 20px;
     align-content: center;
   }
 
   .desc-wahatisdoes .headers-desc {
     display: block;
     text-align: center;
-    width: 100%;
     margin: 0 auto;
+    padding-top: 48px;
   }
 
   .desc-wahatisdoes .sub-headers-desc {
-    width: 100%;
-    margin-top: 32px;
+    margin-top: 25px;
     text-align: center;
   }
 
@@ -553,10 +805,73 @@ body {
 
   .getstarted {
     padding-top: 61px;
-    height: 1024px;
-    background-image: url(../assets/img/getstarted-full-bcg-720.jpg);
+    height: 1000px;
+    background-image: url(../assets/img/getstarted-full-bcg-720.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom center;
+    position: relative;
+    padding: 0 32px;
+  }
+
+  .getstarted .wrap-items {
+    top: -51px;
+  }
+
+  .getstarted .example-item {
+    padding-top: 6px;
+    width: 71px;
+    height: 71px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1), 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svg-item-bell {
+    width: 30px;
+    height: 36.3px;
+  }
+
+  .counter-notification,
+  .counter-notification-cart {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8892px;
+    line-height: 14px;
+    top: 13px;
+    left: 38px;
+  }
+
+  .svg-item-cart,
+  .counter-notification-cart {
+    display: inline-block;
+  }
+
+  .counter-notification-cart {
+    background-color: #40B756;
+  }
+
+  .bcg-dot,
+  .svg-item-phone {
+    display: none;
+  }
+
+  .getstarted .content-box {
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+
+  .sub-headers-desc {
+    text-align: center;
+  }
+
+  .getstarted .example-box {
+    position: absolute;
+    left: 117px;
+    top: 539px;
   }
 
   .getstarted .headers-desc {
@@ -569,7 +884,6 @@ body {
   }
 
   .getstarted .link-learn-more {
-    margin-top: 71px;
     text-align: center;
   }
 
@@ -612,13 +926,26 @@ body {
     color: #4F4F4F;
   }
 
+  .desc-blocks-features::first-letter {
+    padding-left: 0px;
+    position: relative;
+  }
+
+  .desc-blocks-features::before {
+    display: block;
+    content: "";
+    position: absolute;
+  }
+
   .oursay {
     height: 400px;
     padding-top: 51px;
   }
 
-  .oursay .content-block {
+  .content-block-oursay {
+    margin: 0 auto;
     width: 360px;
+    /* padding-left: 4vw; */
   }
 
   .oursay .sub-headers-desc {
@@ -641,7 +968,7 @@ body {
   }
 
   .right-btn-pagination {
-    left: 85%;
+    left: 71%;
   }
 
   .item-pagination {
@@ -653,9 +980,13 @@ body {
     height: auto;
   }
 
+  .item-mentions {
+    margin-right: 102px;
+  }
+
   .row-mentions {
     flex-wrap: wrap;
-    column-gap: 14%;
+    gap: 10%;
     justify-content: space-around;
   }
 
@@ -671,17 +1002,16 @@ body {
   }
 
   .getupclose {
-    height: 701px;
+    height: 720px;
     background-image: url(../assets/img/getupclose-bcg-720.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0;
-    padding: 0 5px;
+    padding: 0 5%;
   }
 
   .getupclose .content-block {
-    width: 100%;
-    height: 100%;
     padding-top: 22px;
   }
 
@@ -699,67 +1029,135 @@ body {
   }
 
   .footer {
-    width: 100%;
     padding: 1px 5px;
     height: 210px;
     background-color: #00ADEE;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
-  .links-footer {
+  .footer-links {
     order: 3;
-    width: 100%;
     gap: 1%;
     justify-content: flex-start;
   }
 
 }
 
-@media (max-width:520px) {
-  .header-head {
-    width: 100%;
+@media (max-width: 690px) {
+  .row-mentions {
+    gap: 2%;
   }
 
+}
+
+@media (max-width:600px) {
   .app-link {
-    padding: 0;
+    padding: 0 5%;
   }
 
-  .desc-wahatisdoes .desc-content {
-    height: auto;
-    margin: 0 auto;
-    width: 100%;
+  .promo-wahatisdoes {
+    margin-top: 30px;
+  }
+
+  .promo-video,
+  .promo-card {
+    margin-top: 0;
+    width: 245.21px;
+    height: 154.58px;
+  }
+
+  .promo-video {
+    bottom: 160px;
+    right: -16px;
+  }
+
+  .head-card {
+    font-size: 11.5188px;
+    line-height: 15px;
+    margin-top: 19px;
+  }
+
+  .match-type,
+  .content-card,
+  .competitor-names {
+    font-weight: 500;
+    font-size: 12.3539px;
+    line-height: 16px;
+  }
+
+  .match-type {
+    margin: 0;
+  }
+
+  .teams-info {
+    font-size: 10.9812px;
+    line-height: 14px;
+  }
+
+  .img-emblem-arsenal {
+    width: 48.76px;
+    height: 57.53px;
+    top: -2px;
+    left: -102px;
+  }
+
+  .img-emblem-chelsea {
+    width: 57.39px;
+    height: 57.53px;
+    top: -2px;
+    left: -66px;
+  }
+
+  .footer-card {
+    width: 245.21px;
+    margin-top: 0;
+    padding-left: 15.74px;
+    padding-right: 26.24px;
+    height: 33.8px;
+  }
+
+  .footer-text {
+    font-size: 12.9587px;
+    line-height: 17px;
+  }
+
+  .btn-footer-toggle {
+    width: 18.74px;
+    height: 8.63px;
+  }
+
+  .btn-footer-toggle::after {
+    width: 14.41px;
+    height: 14.38px;
   }
 
   .wahatisdoes {
-    height: 1000px;
-    background-image: url(../assets/img/whatisdoes-bcg-520.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-  }
-
-  .img-card-wahatisdoes-top,
-  .img-card-wahatisdoes-bottom {
-    display: none;
-  }
-
-  .img-cards-wahatisdoes-520 {
-    display: block;
-    position: absolute;
-    top: 51px;
+    height: 856px;
+    background-size: 100%;
   }
 
   .item-mentions {
-    margin-right: 0;
-    margin-bottom: 0;
+    margin-right: 67px;
   }
 
-  .footer {
-    width: 100%;
-    padding: 44px 1px 21px 19px;
+}
+
+@media (max-width:520px) {
+
+  .content-block {
+    width: auto;
   }
 
-  .links-footer {
-    margin-bottom: 1px;
+  .item-mentions {
+    margin-right: 20px;
   }
+
+  .getupclose .content-block {
+    padding-top: 22px;
+    width: 77.4vw;
+    margin: 0 auto;
+  }
+
 }
