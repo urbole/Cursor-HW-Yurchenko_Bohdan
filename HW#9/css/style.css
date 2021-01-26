@@ -808,7 +808,7 @@ body {
     height: 1000px;
     background-image: url(../assets/img/getstarted-full-bcg-720.png);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: bottom right;
     position: relative;
     padding: 0 32px;
   }
@@ -870,7 +870,7 @@ body {
 
   .getstarted .example-box {
     position: absolute;
-    left: 117px;
+    right: 409px;
     top: 539px;
   }
 
