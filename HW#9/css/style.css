@@ -8,6 +8,8 @@
   border-style: none;
   outline: none;
   color: black;
+  /* box-shadow: 0px 0px 5px 1px rgba(255, 0, 0, 1) inset; */
+  /* border-radius: 20px; */
 }
 
 a:active,
@@ -33,7 +35,7 @@ body {
 }
 
 .main-content {
-  width: 100vw;
+  width: 99vw;
 }
 
 .content-block {
@@ -422,7 +424,7 @@ body {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 6.2vw;
+  column-gap: 1.2vw;
   justify-content: space-evenly;
 }
 
@@ -483,7 +485,37 @@ body {
   position: relative;
   gap: 2.55%;
   justify-content: center;
+}
 
+.card-oursay {
+  width: 309px;
+  height: 161px;
+  background: #FFFFFF;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  padding: 13px;
+}
+
+.row-1-card-oursay {
+  align-items: center;
+}
+
+.social-network-card-oursay {
+  margin-left: auto;
+}
+
+.username-card-oursay {
+  margin-left: 11px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+}
+
+.desc-card-oursay {
+  margin-top: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4F4F4F;
 }
 
 .item-cards-slider-mobile {
@@ -541,13 +573,14 @@ body {
   background-position: left top;
   background-repeat: no-repeat;
   padding-top: 104px;
-  padding-left: 37.6%;
+  /* padding-left: 37.6%; */
 }
 
 .getupclose .content-block {
   height: 280px;
-  width: 532px;
-  margin: 0;
+  width: 77.4vw;
+  max-width: 532px;
+  margin: 0 auto;
 }
 
 .getupclose .desc-content {
@@ -568,7 +601,8 @@ body {
 }
 
 .footer-links {
-  width: 376px;
+  /* width: 376px; */
+  gap: 8%;
   justify-content: space-between;
 }
 
@@ -624,7 +658,7 @@ body {
   }
 
   .row-mentions {
-    gap: 6%;
+    gap: 2.5%;
   }
 
 
@@ -646,6 +680,7 @@ body {
 
   .features .content-block {
     justify-content: space-evenly;
+    width: 84.4vw;
   }
 
   .item-cards-slider:nth-child(5) {
@@ -805,16 +840,16 @@ body {
 
   .getstarted {
     padding-top: 61px;
-    height: 1000px;
+    height: 1051px;
     background-image: url(../assets/img/getstarted-full-bcg-720.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom center;
     position: relative;
     padding: 0 32px;
   }
 
   .getstarted .wrap-items {
-    top: -51px;
+    top: 3px;
   }
 
   .getstarted .example-item {
@@ -1002,7 +1037,7 @@ body {
   }
 
   .getupclose {
-    height: 720px;
+    height: 825px;
     background-image: url(../assets/img/getupclose-bcg-720.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1039,7 +1074,7 @@ body {
 
   .footer-links {
     order: 3;
-    gap: 1%;
+    gap: %;
     justify-content: flex-start;
   }
 
