@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HW#14 "Кросбраузерність та оптимізація"</title>
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
@@ -21,47 +21,43 @@
     <header>
         <div class="wrapper">
             <div class="logo_sprite"></div>
-            <!-- <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo"> -->
             <div class="right-block">
                 <a href="tel:+380500704843" class="phone">+38 050 070 48 43</a>
-                <button class="btn-call btn_shadow">Заказать звонок</button>
+                <button class="btn-call">Заказать звонок</button>
             </div>
         </div>
     </header>
     <section class="main-screen">
-        <div class="bcg_main-screen">
-            <!-- <picture class="responsive_bcg">
-                <source type="image/webp" srcset="
-                    ../img/main-screen-bg/main-screen-bg_360.webp 360w,
-                    ../img/main-screen-bg/main-screen-bg_765.webp 765w,
-                    ../img/main-screen-bg/main-screen-bg_1061.webp 1061,
-                    ../img/main-screen-bg/main-screen-bg_1308.webp 1308,
-                    ../img/main-screen-bg/main-screen-bg_1471.webp 1471,
-                    ../img/main-screen-bg/main-screen-bg_1682.webp 1682"
-                    media="
-                    (max-width: 320px) 360w,
-                    (max-width: 780px) 765w,
-                    (max-width: 1024px) 1061w,
-                    (max-width: 1280px) 1308w,
-                    (max-width: 1440px) 1471w,
-                    1682w">
-                <source type="image/jpeg" srcset="
-                    ../img/main-screen-bg/main-screen-bg_360.jpg 360w,
-                    ../img/main-screen-bg/main-screen-bg_765.jpg 765w,
-                    ../img/main-screen-bg/main-screen-bg_1061.jpg 1061w,
-                    ../img/main-screen-bg/main-screen-bg_1308.jpg 1308w,
-                    ../img/main-screen-bg/main-screen-bg_1471.jpg 1471w,
-                    ../img/main-screen-bg/main-screen-bg_1682.jpg 1682w"
-                    media="
-                    (max-width: 320px) 360w,
-                    (max-width: 780px) 765w,
-                    (max-width: 1024px) 1061w,
-                    (max-width: 1280px) 1308w,
-                    (max-width: 1440px) 1471w,
-                    1682w">
-                <img src="../img/main-screen-bg/main-screen-bg_1682.jpg" alt="image parking">
-            </picture> -->
-            <img class="responsive_bcg" srcset="
+        <!-- <picture class="responsive_bcg">
+            <source type="image/webp" srcset="
+                    img/main-screen-bg/main-screen-bg_360.webp 360w,
+                    img/main-screen-bg/main-screen-bg_765.webp 765w,
+                    img/main-screen-bg/main-screen-bg_1061.webp 1061,
+                    img/main-screen-bg/main-screen-bg_1308.webp 1308,
+                    img/main-screen-bg/main-screen-bg_1471.webp 1471,
+                    img/main-screen-bg/main-screen-bg_1682.webp 1682" sizes="
+                    (max-width: 320px) 340w,
+                    (max-width: 780px) 745w,
+                    (max-width: 1024px) 1020w,
+                    (max-width: 1280px) 1290w,
+                    (max-width: 1440px) 1440w,
+                    1640w">
+            <source type="image/jpeg" srcset="
+                    img/main-screen-bg/main-screen-bg_360.jpg 360w,
+                    img/main-screen-bg/main-screen-bg_765.jpg 765w,
+                    img/main-screen-bg/main-screen-bg_1061.jpg 1061w,
+                    img/main-screen-bg/main-screen-bg_1308.jpg 1308w,
+                    img/main-screen-bg/main-screen-bg_1471.jpg 1471w,
+                    img/main-screen-bg/main-screen-bg_1682.jpg 1682w" sizes="
+                    (max-width: 320px) 340w,
+                    (max-width: 780px) 745w,
+                    (max-width: 1024px) 1020w,
+                    (max-width: 1280px) 1290w,
+                    (max-width: 1440px) 1440w,
+                    1640w">
+            <img src="img/main-screen-bg/main-screen-bg_1682.jpg" alt="image parking">
+        </picture> -->
+        <img class="responsive_bcg" srcset="
         ../img/main-screen-bg/main-screen-bg_360.jpg 360w,
         ../img/main-screen-bg/main-screen-bg_765.jpg 765w,
         ../img/main-screen-bg/main-screen-bg_1061.jpg 1061w,
@@ -74,7 +70,6 @@
         (max-width: 1280px) 1308w,
         (max-width: 1440px) 1471w,
         1682w" src="../img/main-screen-bg/main-screen-bg_1682.jpg" alt="image parking">
-        </div>
         <div class="wrapper">
             <div class="left-block">
                 <h1 class="h1">Видеопарктроник - <span class="yellow">Автоновинка 2017 года</span></h1>
@@ -85,7 +80,7 @@
                     солнцезащитный козырек!
                 </p>
                 <div class="timer"></div>
-                <button class="btn-order btn_shadow">Заказать</button>
+                <button class="btn-order">Заказать</button>
             </div>
             <div class="right-block">
                 <img src="img/product.png" alt="" class="main-image">
@@ -115,7 +110,11 @@
                     <p class="value">648х488</p>
                 </div>
                 <div class="description">
-                    <img src="img/about-1.jpg" alt="">
+                    <picture>
+                        <source type="image/webp" srcset="img/about-1.webp" sizes="260w">
+                        <source type="image/jpeg" srcset="img/about-1.jpg" sizes="260w">
+                        <img src="img/about-1.jpg" alt="">
+                    </picture>
                 </div>
             </div>
             <div class="column-block">
@@ -136,7 +135,11 @@
                     <p class="value">черный, серый</p>
                 </div>
                 <div class="description">
-                    <img src="img/about-2.jpg" alt="">
+                    <picture>
+                        <source type="image/webp" srcset="img/about-2.webp" sizes="342w">
+                        <source type="image/jpeg" srcset="img/about-2.jpg" sizes="342w">
+                        <img src="img/about-2.jpg" alt="">
+                    </picture>
                 </div>
             </div>
             <div class="column-block last">
@@ -152,10 +155,14 @@
                     </p>
                 </div>
                 <div class="description">
-                    <img src="img/about-3.jpg" alt="">
+                    <picture>
+                        <source type="image/webp" srcset="img/about-3.webp" sizes="338w">
+                        <source type="image/jpeg" srcset="img/about-3.jpg" sizes="338w">
+                        <img src="img/about-3.jpg" alt="">
+                    </picture>
                 </div>
             </div>
-            <button class="btn-order centred btn_shadow">Заказать</button>
+            <button class="btn-order centred">Заказать</button>
         </div>
     </section>
     <section class="reasons">
@@ -166,7 +173,6 @@
             <div class="reason">
                 <div class="square">
                     <div class="reason1_sprite"></div>
-                    <!-- <img src="img/reason1.png" alt="" class="width60"> -->
                 </div>
                 <h4 class="h4">Быстрый и легкий монтаж</h4>
                 <div class="reason-text">Зеркало с монитором крепится поверх штатного и не требует дополнительных
@@ -176,7 +182,6 @@
             <div class="reason">
                 <div class="square">
                     <div class="reason2_sprite"></div>
-                    <!-- <img src="img/reason2.png" alt=""> -->
                 </div>
                 <h4 class="h4">Стоимость</h4>
                 <div class="reason-text">Цена видеопарктроника у дилера от 19990 грн.Наша цена всего 3990 грн.
@@ -185,7 +190,6 @@
             <div class="reason">
                 <div class="square">
                     <div class="width35 reason3_sprite"></div>
-                    <!-- <img src="img/reason3.png" alt="" class="width35"> -->
                 </div>
                 <h4 class="h4">Экономия</h4>
                 <div class="reason-text">В случае наезда на препятствие при движении задним ходом, стоимость ремонта
@@ -196,7 +200,6 @@
             <div class="reason">
                 <div class="square">
                     <div class="reason4_sprite"></div>
-                    <!-- <img src="img/reason4.png" alt=""> -->
                 </div>
                 <h4 class="h4">Безопасность для пешеходов</h4>
                 <div class="reason-text">при движении задним ходом (угол обзора нашей камеры 170 градусов)
@@ -216,29 +219,51 @@
             <div class="left-block">
                 <p>ремонт бампера стоит от</p>
                 <p class="cost"><span class="yellow">6000</span> рублей</p>
-                <img src="img/girl-in-car.jpg" alt="" class="full-width">
-                <img src="img/broken-car1.jpg" alt="" class="half-width">
-                <img src="img/broken-car2.jpg" alt="" class="half-width">
+                <picture>
+                    <source type="image/webp" srcset="img/girl-in-car.webp" sizes="467w">
+                    <source type="image/jpeg" srcset="img/girl-in-car.jpg" sizes="467w">
+                    <img src="img/girl-in-car.jpg" class="full-width" alt="">
+                </picture>
+                <picture>
+                    <source type="image/webp" srcset="img/broken-car1.webp" sizes="467w">
+                    <source type="image/jpeg" srcset="img/broken-car1.jpg" sizes="467w">
+                    <img src="img/broken-car1.jpg" alt="" class="half-width">
+                </picture>
+                <picture>
+                    <source type="image/webp" srcset="img/broken-car2.webp" sizes="467w">
+                    <source type="image/jpeg" srcset="img/broken-car2.jpg" sizes="467w">
+                    <img src="img/broken-car2.jpg" alt="" class="half-width">
+                </picture>
             </div>
             <div class="right-block">
                 <p>Видеопарктроник с подарком стоит</p>
                 <p class="cost"><span class="yellow">3990</span> рублей</p>
-                <img src="img/product.jpg" alt="" class="full-width small-height-fix">
+                <picture>
+                    <source type="image/webp" srcset="img/product.webp" sizes="406w">
+                    <source type="image/jpeg" srcset="img/product.jpg" sizes="406w">
+                    <img src="img/product.jpg" alt="" class="full-width small-height-fix">
+                </picture>
                 <span class="plus yellow">+</span>
-                <img src="img/gift.jpg" alt="" class="full-width">
+                <picture>
+                    <source type="image/webp" srcset="img/gift.webp" sizes="472w">
+                    <source type="image/jpeg" srcset="img/gift.jpg" sizes="472w">
+                    <img src="img/gift.jpg" alt="" class="full-width">
+                </picture>
             </div>
-            <button class="btn-order centred btn_shadow">Заказать</button>
+            <button class="btn-order centred">Заказать</button>
         </div>
     </section>
     <section class="reviews">
         <div class="wrapper">
             <h2 class="h2">отзывы о нашем <span class="yellow">видеопарктронике</span></h2>
-            <!-- <button type="button" data-role="none" class="slick-prev slick-arrow arrow-left_sprite" aria-label="Previous" role="button" style="">Previous</button> -->
             <button class="arrow-left_sprite" id="prev"></button>
-            <!-- <img src="img/arrow-left.png" alt="" class="arrow-left"> -->
             <div class="review-slider">
                 <div class="slide slick_slide-1">
-                    <img src="img/review1.jpg" alt="" class="main-review-img">
+                    <picture>
+                        <source type="image/webp" srcset="img/review1.webp" sizes="280w">
+                        <source type="image/jpeg" srcset="img/review1.jpg" sizes="280w">
+                        <img src="img/review1.jpg" alt="" class="main-review-img">
+                    </picture>
                     <p class="review-text">
                         Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них
                         либо
@@ -259,13 +284,16 @@
                     </p>
                     <div class="review-author">
                         <div class="ava_sprites"></div>
-                        <!-- <img src="img/review1-ava.jpg" alt="" class="ava"> -->
                         <b>Константин</b>
                         <i>г. Днепропетровск</i>
                     </div>
                 </div>
                 <div class="slide slick_slide-2">
-                    <img src="img/review1.jpg" alt="" class="main-review-img">
+                    <picture>
+                        <source type="image/webp" srcset="img/review1.webp" sizes="280w">
+                        <source type="image/jpeg" srcset="img/review1.jpg" sizes="280w">
+                        <img src="img/review1.jpg" alt="" class="main-review-img">
+                    </picture>
                     <p class="review-text">
                         Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них
                         либо
@@ -286,13 +314,16 @@
                     </p>
                     <div class="review-author">
                         <div class="ava_sprites"></div>
-                        <!-- <img src="img/review1-ava.jpg" alt="" class="ava"> -->
                         <b>Константин</b>
                         <i>г. Днепропетровск</i>
                     </div>
                 </div>
                 <div class="slide slick_slide-3">
-                    <img src="img/review1.jpg" alt="" class="main-review-img">
+                    <picture>
+                        <source type="image/webp" srcset="img/review1.webp" sizes="280w">
+                        <source type="image/jpeg" srcset="img/review1.jpg" sizes="280w">
+                        <img src="img/review1.jpg" alt="" class="main-review-img">
+                    </picture>
                     <p class="review-text">
                         Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них
                         либо
@@ -313,13 +344,16 @@
                     </p>
                     <div class="review-author">
                         <div class="ava_sprites"></div>
-                        <!-- <img src="img/review1-ava.jpg" alt="" class="ava"> -->
                         <b>Константин</b>
                         <i>г. Днепропетровск</i>
                     </div>
                 </div>
                 <div class="slide slick_slide-4">
-                    <img src="img/review1.jpg" alt="" class="main-review-img">
+                    <picture>
+                        <source type="image/webp" srcset="img/review1.webp" sizes="280w">
+                        <source type="image/jpeg" srcset="img/review1.jpg" sizes="280w">
+                        <img src="img/review1.jpg" alt="" class="main-review-img">
+                    </picture>
                     <p class="review-text">
                         Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них
                         либо
@@ -340,14 +374,12 @@
                     </p>
                     <div class="review-author">
                         <div class="ava_sprites"></div>
-                        <!-- <img src="img/review1-ava.jpg" alt="" class="ava"> -->
                         <b>Константин</b>
                         <i>г. Днепропетровск</i>
                     </div>
                 </div>
             </div>
             <button class="arrow-right_sprite" id="next"></button>
-            <!-- <img src="img/arrow-right.png" alt="" class="arrow-right"> -->
         </div>
     </section>
     <section class="delivery">
@@ -364,17 +396,14 @@
             <div class="advantages">
                 <div class="adv">
                     <div class="adv1_sprites"></div>
-                    <!-- <img src="img/adv1.png" alt=""> -->
                     <div class="adv-title yellow">Оплата при получении</div>
                 </div>
                 <div class="adv">
                     <div class="adv2_sprites"></div>
-                    <!-- <img src="img/adv2.png" alt=""> -->
                     <div class="adv-title yellow">365 дней гарантии</div>
                 </div>
                 <div class="adv">
                     <div class="adv3_sprites"></div>
-                    <!-- <img src="img/adv3.png" alt=""> -->
                     <div class="adv-title yellow">Возврат денег в течение 14 дней</div>
                 </div>
             </div>
@@ -409,9 +438,17 @@
             <h2 class="h2">закажите свой видеопарктроник <span class="yellow">до конца дня</span>
                 И <span class="yellow">получите в подарок</span> антибликовое стекло</h2>
             <div class="left-block">
-                <img src="img/product-reverse.jpg" alt="">
+                <picture>
+                    <source type="image/webp" srcset="img/product-reverse.webp" sizes="280w">
+                    <source type="image/jpeg" srcset="img/product-reverse.jpg" sizes="280w">
+                    <img src="img/product-reverse.jpg" alt="">
+                </picture>
                 <span class="plus">+</span>
-                <img src="img/gift-reverse.jpg" alt="">
+                <picture>
+                    <source type="image/webp" srcset="img/gift-reverse.webp" sizes="280w">
+                    <source type="image/jpeg" srcset="img/gift-reverse.jpg" sizes="280w">
+                    <img src="img/gift-reverse.jpg" alt="">
+                </picture>
                 <div class="price price_sprite">
                     <div class="old-price">6999 грн.</div>
                     <div class="new-price">3999 грн.</div>
@@ -422,7 +459,7 @@
                     <input type="text" name="name" class="name" placeholder="Введите имя">
                     <input type="text" name="phone" class="phone" placeholder="+38 (___)">
                     <div id="timer2"></div>
-                    <button class="btn-order centred btn_shadow">Заказать</button>
+                    <button class="btn-order centred">Заказать</button>
                 </form>
             </div>
         </div>
@@ -437,7 +474,6 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="lib/plugins.js"></script>
     <script>
-        
         // slick slide settings
         $(document).ready(function () {
             $('.review-slider').slick({
@@ -445,10 +481,8 @@
                 lazyLoad: 'progressive',
                 nextArrow: document.querySelector('#next'),
                 prevArrow: document.querySelector('#prev')
-                // arrows: false
             });
         });
-
         // preloader settings
         window.onload = function () {
             document.body.classList.add('loaded_hiding');
@@ -457,7 +491,6 @@
                 document.body.classList.remove('loaded_hiding');
             }, 500);
         }
-
         // 2. This code loads the IFrame Player API code asynchronously.
         var tag = document.createElement('script');
 
@@ -475,17 +508,15 @@
                 width: '640',
                 videoId: 'M7lc1UVf-VE',
                 events: {
-                    'onReady': onPlayerReady,
+                    'onReady': stopVideo,
                     'onStateChange': onPlayerStateChange
                 }
             });
         }
-
         // 4. The API will call this function when the video player is ready.
         function onPlayerReady(event) {
             event.target.playVideo();
         }
-
         // 5. The API calls this function when the player's state changes.
         //    The function indicates that when playing a video (state=1),
         //    the player should play for six seconds and then stop.
