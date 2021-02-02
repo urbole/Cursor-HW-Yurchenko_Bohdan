@@ -584,14 +584,14 @@ body {
   background-position: left top;
   background-repeat: no-repeat;
   padding-top: 104px;
-  /* padding-left: 37.6%; */
+  padding-left: 37.6%;
 }
 
 .getupclose .content-block {
   height: 280px;
   width: 77.4vw;
   max-width: 532px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .getupclose .desc-content {
@@ -752,6 +752,14 @@ body {
   .item-mentions {
     margin-right: 150px;
     margin-bottom: 50px;
+  }
+
+  .getupclose{
+    padding-left: 0;
+  }
+
+  .getupclose .content-block {
+    margin: 0 auto;
   }
 
 }
