@@ -485,6 +485,8 @@ body {
   position: relative;
   gap: 2.55%;
   justify-content: center;
+  overflow: hidden;
+  
 }
 
 .card-oursay {
@@ -494,6 +496,14 @@ body {
   border: 1px solid #828282;
   border-radius: 4px;
   padding: 13px;
+}
+
+.first-card {
+  -webkit-mask-image:-webkit-gradient(linear, left center,right center, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
+
+.last-card {
+  -webkit-mask-image:-webkit-gradient(linear, left center,right center, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
 
 .row-1-card-oursay {
@@ -529,6 +539,7 @@ body {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
   filter: drop-shadow(0px 10px 8px rgb(161, 160, 160));
+  z-index: 999;
 }
 
 .left-btn-pagination {
