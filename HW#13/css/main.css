@@ -732,16 +732,12 @@ footer {
 }
 
 @media (min-width: 1680px) {
-    .reviews .arrow-left_sprite {
+    .reviews .arrow-left_sprite, .arrow-right_sprite {
         left: 20vw;
-    }
-
-    .reviews .arrow-right_sprite {
-        right: 20vw;
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1120px) {
     .reviews .arrow-left_sprite {
         left: 20px;
     }
@@ -749,4 +745,13 @@ footer {
     .reviews .arrow-right_sprite {
         right: 20px;
     }
+
+    .about .description {
+        width: 29%;
+    }
+
+    .about .description.double {
+        width: 52%;
+    }
+
 }
