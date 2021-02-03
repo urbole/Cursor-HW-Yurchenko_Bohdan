@@ -737,8 +737,12 @@ footer {
 }
 
 @media (min-width: 1680px) {
-    .reviews .arrow-left_sprite, .arrow-right_sprite {
+    .reviews .arrow-left_sprite {
         left: 20vw;
+    }
+
+    .reviews .arrow-right_sprite {
+        right: 20vw;
     }
 }
 
