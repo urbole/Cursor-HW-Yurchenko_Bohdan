@@ -243,8 +243,13 @@ button {
     color: #fff;
 }
 
-.responsive_bcg {
+.responsive_bg {
     position: absolute;
+    width: 100%;
+}
+
+.image_bg {
+    width: 100%;
 }
 
 .main-screen .h1 {
