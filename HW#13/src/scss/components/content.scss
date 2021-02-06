@@ -1,0 +1,30 @@
+.content {
+  max-width: 81.375rem;
+  min-height: 48.5rem;
+  margin: 10rem auto;
+  background-color: #fff;
+  padding: 2.75rem 3.625rem;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2C2C2C;
+  }
+
+  &__title:nth-of-type(2) {
+    margin-top: 4.563rem;
+  }
+
+  &__first-row {
+    margin-top: 1.625rem;
+    gap: 8.25rem;
+  }
+
+  &__second-row {
+    margin-top: 2.188rem;
+    gap: 9.125rem;
+  }
+}

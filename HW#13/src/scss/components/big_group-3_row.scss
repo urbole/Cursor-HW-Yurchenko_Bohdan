@@ -1,0 +1,43 @@
+.btn-3-1,
+.btn-3-2,
+.btn-3-3 {
+  width: 6.625rem;
+  height: 2.875rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-3-1 {
+  background-color: #18A0FB;
+  color: #fff;
+  border-radius: .313rem 0 0 .313rem;
+}
+
+.btn-3-1:hover {
+  background-color: #fff;
+  color: #18A0FB;
+  border: solid .063rem #E0E0E0;
+}
+
+.btn-3-2,
+.btn-3-3 {
+  background-color: #fff;
+  color: #2C2C2C;
+  border: solid .063rem #E0E0E0;
+}
+
+.btn-3-2 {
+  border-left: unset;
+  border-right: unset;
+}
+
+.btn-3-2:hover,
+.btn-3-3:hover {
+  background-color: #2C2C2C;
+  color: #fff;
+  border: #2C2C2C;
+}
+
+.btn-3-3 {
+  border-radius: 0 .313rem  .313rem 0;
+}

@@ -1,0 +1,30 @@
+.s-btn-9 {
+  width: 6.938rem;
+  height: 2.25rem;
+  border-radius: .313rem;
+  font-weight: 500;
+  font-size: .813rem;
+  gap: .77rem;
+  background-color: #18A0FB;
+  color: #fff;
+
+  &__path {
+    stroke: #fff;
+  }
+
+  &__img-svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+}
+
+.s-btn-9:hover {
+  background-color: #fff;
+  color: #18A0FB;
+  border: solid .063rem #18A0FB;
+}
+
+.s-btn-9:hover .svg-stroke {
+  stroke: #18A0FB;
+}

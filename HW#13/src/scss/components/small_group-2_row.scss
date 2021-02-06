@@ -1,0 +1,59 @@
+.sg-btn-2-1,
+.sg-btn-2-2,
+.sg-btn-2-3 {
+  font-weight: 500;
+  font-size: .813rem;
+  width: 3rem;
+  height: 2.25rem;
+  justify-content: center;
+  align-items: center;
+
+  &__svg-item {
+    margin-top: .4rem;
+    margin-left: .1rem;
+  }
+}
+
+.sg-btn-2-1 {
+  background-color: #18A0FB;
+  border-radius: .313rem 0 0 .313rem;
+
+  &__path {
+    fill: #fff;
+  }
+}
+
+.sg-btn-2-1:hover {
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+}
+
+.sg-btn-2-1:hover .svg-fill {
+  fill: #18A0FB;
+}
+
+.sg-btn-2-2,
+.sg-btn-2-3 {
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+}
+
+.sg-btn-2-2 {
+  border-left: unset;
+  border-right: unset;
+}
+
+.sg-btn-2-2:hover,
+.sg-btn-2-3:hover {
+  background-color: #2C2C2C;
+  border: #2C2C2C;
+}
+
+.sg-btn-2-2:hover .svg-fill,
+.sg-btn-2-3:hover .svg-fill {
+  fill: #fff;
+}
+
+.sg-btn-2-3 {
+  border-radius: 0 .313rem .313rem 0;
+}

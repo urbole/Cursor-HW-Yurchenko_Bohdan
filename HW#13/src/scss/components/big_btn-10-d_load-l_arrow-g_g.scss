@@ -1,0 +1,23 @@
+.b-btn-10 {
+  width: 9rem;
+  height: 2.875rem;
+  border-radius: .313rem;
+  font-weight: 500;
+  font-size: .938rem;
+  gap: .875rem;
+  background: rgba(224, 224, 224, 0.3);
+  color: #7a6a6a;
+
+  &__path {
+    stroke: #878787;
+  }
+}
+
+.b-btn-10:hover {
+  background: #878787;
+  color: rgba(224, 224, 224, 0.753);
+}
+
+.b-btn-10:hover .svg-stroke {
+  stroke: rgba(224, 224, 224, 0.753);
+}

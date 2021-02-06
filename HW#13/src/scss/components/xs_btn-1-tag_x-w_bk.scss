@@ -1,0 +1,20 @@
+.xs-btn-1 {
+  width: 4.063rem;
+  height: 1.75rem;
+  border-radius: .313rem;
+  font-weight: 500;
+  font-size: .813rem;
+  gap: .5rem;
+  background-color: #fff;
+  color: #2C2C2C;
+  border: solid .063rem #E0E0E0;
+}
+
+.xs-btn-1:hover {
+  background: #2C2C2C;
+  color: #fff;
+}
+
+.xs-btn-1:hover .svg-path {
+  fill: #fff;
+}

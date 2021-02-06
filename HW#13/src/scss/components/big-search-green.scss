@@ -1,0 +1,25 @@
+.b-search {
+  background-color: #00D200;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1.25rem;
+
+  &__path {
+    fill: #fff;
+  }
+
+  &__svg-item {
+    margin-top: .4rem;
+    margin-left: .1rem;
+  }
+}
+
+.b-search:hover {
+  background-color: #fff;
+  border: solid .063rem #00D200;
+}
+
+.b-search:hover .svg-fill {
+  fill: #00D200;
+}

@@ -1,0 +1,57 @@
+.btn-1-1,
+.btn-1-2,
+.btn-1-3 {
+  width: 3.5rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1-1 {
+  background-color: #18A0FB;
+  border-radius: .313rem 0 0 .313rem;
+
+  &__path {
+    fill: #fff;
+  }
+
+  &__svg-item {
+    margin-top: .4rem;
+    margin-left: .1rem;
+  }
+}
+
+.btn-1-1:hover {
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+}
+
+.btn-1-1:hover .svg-fill {
+  fill: #18A0FB;
+}
+
+.btn-1-2,
+.btn-1-3 {
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+}
+
+.btn-1-2 {
+  border-left: unset;
+  border-right: unset;
+}
+
+.btn-1-2:hover,
+.btn-1-3:hover {
+  background-color: #2C2C2C;
+  border: #2C2C2C;
+}
+
+.btn-1-2:hover .svg-stroke,
+.btn-1-3:hover .svg-stroke {
+  stroke: #fff;
+}
+
+.btn-1-3 {
+  border-radius: 0 .313rem .313rem 0;
+}

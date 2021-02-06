@@ -1,0 +1,20 @@
+.b-btn-7 {
+  width: 9rem;
+  height: 2.875rem;
+  border-radius: .313rem;
+  font-weight: 500;
+  font-size: .938rem;
+  gap: .875rem;
+  background-color: #fff;
+  color: #2C2C2C;
+  border: solid .063rem #E0E0E0;
+}
+
+.b-btn-7:hover {
+  background: #2C2C2C;
+  color: #fff;
+}
+
+.b-btn-7:hover .svg-stroke {
+  stroke: #fff;
+}

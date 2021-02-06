@@ -1,0 +1,24 @@
+.s-search {
+  background-color: #FF3E1D;
+  border-radius: 100%;
+  width: 2.25rem;
+  height: 2.25rem;
+margin-left: auto;
+  &__path {
+    fill: #fff;
+  }
+
+  &__svg-item {
+    margin-top: .4rem;
+    margin-left: .1rem;
+  }
+}
+
+.s-search:hover {
+  background-color: #fff;
+  border: solid .063rem #FF3E1D;
+}
+
+.s-search:hover .svg-fill {
+  fill: #FF3E1D;
+}

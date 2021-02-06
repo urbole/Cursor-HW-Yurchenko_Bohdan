@@ -1,0 +1,138 @@
+.df {
+  display: flex;
+}
+
+.r {
+  flex-direction: row;
+}
+
+.c {
+  flex-direction: column;
+}
+
+.w {
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-btn {
+
+  &__wrap {
+    margin-top: 1.625rem;
+    gap: 8.189rem;
+    margin-right: 5.563rem;
+  }
+
+  &__solo-block {
+    row-gap: 1.5rem;
+    gap: 1.25rem;
+    max-width: 39.75rem;
+  }
+
+  &__group-block {
+    gap: 1.5rem;
+  }
+
+  // &__warp-group-1:nth-child(1) {
+  //   border-radius: .313rem 0 0 .313rem;
+  // }
+
+  &__group-2 {
+    width: 8.375rem;
+    height: 2.875rem;
+  }
+
+  &__group-3 {
+    width: 6.625rem;
+    height: 2.875rem;
+  }
+}
+
+.small-btn {
+
+  &__group-block {
+    max-width: 21.35rem;
+    gap: .95rem;
+  }
+
+  &__solo-block {
+    gap: 9.125em;
+  }
+
+  &__solo-s {
+    gap: 3.063rem;
+    row-gap: 1.25rem;
+    margin-left: 1.25rem;
+    max-width: 37.875rem;
+  }
+
+  &__wrap-solo-xs {
+    margin-top: 3.125rem;
+    row-gap: .875rem;
+  }
+
+  &__first-row {
+    gap: .75rem;
+  }
+
+  &__second-row {
+    gap: 1.563rem;
+  }
+
+  &__wrap-group-1 {
+    min-width: 21.375rem;
+  }
+
+}
+
+.small-btn__solo-xs {
+  max-width: 8.875rem;
+  margin-top: 3.125rem;
+  row-gap: .875rem;
+  gap: .75rem;
+}
+
+@import './content.scss';
+
+@import './big_btn-1-d_load-clean-b_w.scss';
+@import './big_btn-2-d_load-clean-g_g.scss';
+@import './big_btn-3-d_load-clean-w_bk.scss';
+@import './big_btn-4-d_load-clean-w_b';
+@import './big_btn-5-d_load-arrow_r-b_w';
+@import './big_btn-6-d_load-arrow_r-g_g';
+@import './big_btn-7-d_load-arrow_r-w_bk';
+@import './big_btn-8-d_load-arrow_r-w_b';
+@import './big_btn-9-d_load-l_arrow-b_w';
+@import './big_btn-10-d_load-l_arrow-g_g';
+@import './big_btn-11-d_load-l_arrow-w_bk';
+@import './big_btn-12-d_load-l_arrow-w_b';
+@import './big_group-1_row.scss';
+@import './big_group-2_row.scss';
+@import './big_group-3_row.scss';
+@import './small_btn-1-d_load-clean-b_w';
+@import './small_btn-2-d_load-clean-g_g';
+@import './small_btn-3-d_load-clean-w_bk';
+@import './small_btn-4-d_load-clean-w_b';
+@import './small_btn-5-d_load-arrow_r-b_w';
+@import './small_btn-6-d_load-arrow_r-g_g';
+@import './small_btn-7-d_load-arrow_r-w_bk';
+@import './small_btn-8-d_load-arrow_r-w_b';
+@import './small_btn-9-d_load-l_arrow-b_w';
+@import './small_btn-10-d_load-l_arrow-g_g';
+@import './small_btn-11-d_load-l_arrow-w_bk';
+@import './small_btn-12-d_load-l_arrow-w_b';
+@import './small_group-1_row.scss';
+@import './small-search-red.scss';
+@import './big-search-green';
+@import './small_group-2_row.scss';
+@import './small_group-3_row.scss';
+@import './xs_btn-1-tag_x-w_bk.scss';
+@import './xs_btn-2-tag_x-b_w';
+@import './xs_btn-3-tag-g_bk';
+@import './xs_btn-4-tag-b_w';

@@ -1,0 +1,33 @@
+.sg-btn-1-1,
+.sg-btn-1-2 {
+  width: 5.375rem;
+  height: 2.25rem;
+  font-weight: 500;
+  font-size: .813rem;
+}
+
+.sg-btn-1-1 {
+  background-color: #18A0FB;
+  color: #fff;
+  border-radius: .313rem 0 0 .313rem;
+}
+
+.sg-btn-1-1:hover {
+  background-color: #fff;
+  color: #18A0FB;
+  border: solid .063rem #E0E0E0;
+}
+
+.sg-btn-1-2 {
+  color: #2C2C2C;
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+  border-left: unset;
+  border-radius: 0 .313rem  .313rem 0;
+}
+
+.sg-btn-1-2:hover {
+  background-color: #2C2C2C;
+  color: #fff;
+  border: #2C2C2C;
+}

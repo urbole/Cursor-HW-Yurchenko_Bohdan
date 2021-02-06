@@ -1,0 +1,33 @@
+.btn-2-1,
+.btn-2-2 {
+  font-weight: 500;
+  font-size: .813rem;
+  width: 8.375rem;
+  height: 2.875rem;
+}
+
+.btn-2-1 {
+  background-color: #18A0FB;
+  color: #fff;
+  border-radius: .313rem 0 0 .313rem;
+}
+
+.btn-2-1:hover {
+  background-color: #fff;
+  color: #18A0FB;
+  border: solid .063rem #E0E0E0;
+}
+
+.btn-2-2 {
+  color: #2C2C2C;
+  background-color: #fff;
+  border: solid .063rem #E0E0E0;
+  border-left: unset;
+  border-radius: 0 .313rem  .313rem 0;
+}
+
+.btn-2-2:hover {
+  background-color: #2C2C2C;
+  color: #fff;
+  border: #2C2C2C;
+}
