@@ -35,7 +35,7 @@ let myString = `
 Округлена у меньшу сторону вртість всіх товарів: ${Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)}\n
 Округлена до сотень вртість всіх товарів: ${Math.round(sumPrices / 100) * 100}\n
 Чи є сума всіх товарів парним числом: ${((Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)) % 2 === 0)}\n
-Сума решти, при оплаті всіх товарів (без округлення): ${banknote - sumPrices}\n
+Сума решти, при оплаті всіх товарів (без округлення): ${banknote500UAH - sumPrices}\n
 Cереднє значення цін, округлене до другого знаку: ${(sumPrices / 3).toFixed(2)}\n
 Чистий прибуток, якщо клієнт заплатив зі знижкою: ${(sumPrices.toFixed(2)) / 2 -  discount}`;
 console.log(myString);
