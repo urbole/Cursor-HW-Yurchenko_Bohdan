@@ -1,7 +1,7 @@
 const applePriceKg = 15.678;
 const mangoPriceKg = 123.965;
 const kiwiPriceKg = 90.2345;
-const banknote = 500;
+const banknote500UAH = 500;
 const discount = (Math.random().toFixed(2) * 100);
 
 console.log("max price - " + Math.max(applePriceKg, mangoPriceKg, kiwiPriceKg));
@@ -19,7 +19,7 @@ console.log("rounded sum of all prices to hundreds - " + hundredsRoundedSumPrice
 let oddEvenCheck = sumRoundedPrices % 2 === 0;
 console.log("whether the sum of the rounded down prices is even - " + oddEvenCheck);
 
-let change = banknote - sumPrices;
+let change = banknote500UAH - sumPrices;
 console.log("change upon payment  - " + change);
 
 let meanPrices = (sumPrices / 3).toFixed(2);
