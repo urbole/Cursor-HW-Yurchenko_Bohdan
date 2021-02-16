@@ -10,3 +10,5 @@ build/
 node_modules/
 materials/
 gulp/
+.tmp.drivedownload/
+prepros.config
