@@ -1,6 +1,7 @@
 const applePriceKg = 15.678;
 const mangoPriceKg = 123.965;
 const kiwiPriceKg = 90.2345;
+const banknote = 500;
 const discount = (Math.random().toFixed(2) * 100);
 
 console.log("max price - " + Math.max(applePriceKg, mangoPriceKg, kiwiPriceKg));
@@ -18,7 +19,7 @@ console.log("rounded sum of all prices to hundreds - " + hundredsRoundedSumPrice
 let oddEvenCheck = (Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)) % 2 == 0;
 console.log("whether the sum of the rounded down prices is even - " + oddEvenCheck);
 
-let change = 500 - sumPrices;
+let change = banknote - sumPrices;
 console.log("change upon payment  - " + change);
 
 let meanPrices = (sumPrices / 3).toFixed(2);
@@ -34,7 +35,7 @@ let myString = `
 Округлена у меньшу сторону вртість всіх товарів: ${Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)}\n
 Округлена до сотень вртість всіх товарів: ${Math.round(sumPrices / 100) * 100}\n
 Чи є сума всіх товарів парним числом: ${((Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)) % 2 == 0)}\n
-Сума решти, при оплаті всіх товарів (без округлення): ${500 - sumPrices}\n
+Сума решти, при оплаті всіх товарів (без округлення): ${banknote - sumPrices}\n
 Cереднє значення цін, округлене до другого знаку: ${(sumPrices / 3).toFixed(2)}\n
 Чистий прибуток, якщо клієнт заплатив зі знижкою: ${(sumPrices.toFixed(2)) / 2 -  discount}`;
 console.log(myString);
