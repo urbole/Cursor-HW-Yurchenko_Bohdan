@@ -16,7 +16,7 @@ console.log("rounded sum all prices - " + sumRoundedPrices);
 let hundredsRoundedSumPrices = Math.round(sumPrices / 100) * 100;
 console.log("rounded sum of all prices to hundreds - " + hundredsRoundedSumPrices);
 
-let oddEvenCheck = (Math.floor(applePriceKg) + Math.floor(mangoPriceKg) + Math.floor(kiwiPriceKg)) % 2 == 0;
+let oddEvenCheck = sumRoundedPrices % 2 === 0;
 console.log("whether the sum of the rounded down prices is even - " + oddEvenCheck);
 
 let change = banknote - sumPrices;
